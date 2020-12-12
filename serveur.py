@@ -6,7 +6,7 @@ HOSTNAME = '127.0.0.1'
 PORT = 10998
 ip_adress = "127.0.0.1"
 
-
+#COMMENTAIRE 
 serversocket = socket.socket(socket.AF_INET,socket.SOCK_STREAM) #IPv4,TCP
 
 serversocket.bind((HOSTNAME,PORT))
