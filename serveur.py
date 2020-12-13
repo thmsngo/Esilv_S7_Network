@@ -1,6 +1,7 @@
 import socket
 import sqlite3
 
+
 """
 def ip_creation(mac_adress):
     if(check(mac_adress)):
@@ -30,6 +31,19 @@ def InsertMAC(mac_adress,ip):
     cur.close()
     conn.close()
     print("Connexion SQLite est fermée")
+    
+def logs():
+    try:
+        sqliteConnection = sqlite3.connect('server.db')
+        cursor = sqliteConnection.cursor()
+        cursor.execute("""SELECT * from Logs""")
+        adressList = cursor.fetchall()
+        cursor.close()
+    except sqlite3.Error as error:
+        print("Failed to read data from sqlite table", error)
+    finally:
+        if (sqliteConnection):
+            sqliteConnection.close()
 
 
 def SqlDHCP():
@@ -64,28 +78,27 @@ if __name__ == '__main__':
     PORT = 10998
     ip_adress = "127.0.0.1"
 
+    #Connection & Accept the client
     serversocket = socket.socket(socket.AF_INET,socket.SOCK_STREAM) #IPv4,TCP
-
     serversocket.bind((HOSTNAME,PORT))
-
     serversocket.listen()
-
     (clientsocket, address) = serversocket.accept() #Get the mac adress from client.py
 
+    #Receive the Mac adress, check for IP adress and give it to client
     mac_adress = clientsocket.recv(4096) #recommended number in the doc
-    
     print(mac_adress.decode())
-
     ip_adress=ip_selection(mac_adress.decode())
-
+    clientsocket.send(bytes("Your IP Adress is "+ip_adress[0],"UTF-8"))
     
-    clientsocket.send(bytes(ip_adress[0],"UTF-8"))
-    
-
+    #Confirmation of IP Adress
     confirmation = clientsocket.recv(4096)
-    clientsocket.send(bytes("tqt fréro","UTF-8"))
-
     print(confirmation.decode())
     
+    #DNS : Receive a domain name, and call the socket library to get the IP
+    domain = clientsocket.recv(4096)
+    ip_domain=socket.gethostbyname(domain.decode())
+    clientsocket.send(bytes("The IP Adress of this domain name is "+ip_domain,"UTF-8"))
+
+    #Closing socket
     clientsocket.close()
     serversocket.close()
