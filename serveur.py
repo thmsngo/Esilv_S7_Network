@@ -1,35 +1,6 @@
 import socket
 import sqlite3
 
-
-HOSTNAME = '127.0.0.1'
-PORT = 10998
-ip_adress = "127.0.0.1"
-
-#COMMENTAIRE 
-serversocket = socket.socket(socket.AF_INET,socket.SOCK_STREAM) #IPv4,TCP
-
-serversocket.bind((HOSTNAME,PORT))
-
-serversocket.listen()
-
-(clientsocket, address) = serversocket.accept()
-
-mac_adress = clientsocket.recv(4096) #recommended number in the doc
-print(mac_adress.decode())
-ip_adress=ip_selection(mac_adress.decode())
-clientsocket.send(bytes(ip_adress,"UTF-8"))
-
-
-confirmation = clientsocket.recv(4096)
-clientsocket.send(bytes("tqt fréro","UTF-8"))
-
-print(confirmation.decode())
-
-clientsocket.close()
-serversocket.close()
-
-
 """
 def ip_creation(mac_adress):
     if(check(mac_adress)):
@@ -40,7 +11,9 @@ def ip_creation(mac_adress):
    
 def ip_selection(mac_adress):
     ip_adress_list = SqlDHCP()
-    for i in range(len(ip_adress_list),2):
+    print(len(ip_adress_list))
+    for i in range(len(ip_adress_list)):
+        print(ip_adress_list[i+1])
         if(ip_adress_list[i+1]==None):
             InsertMAC(ip_adress_list[i+1],ip_adress_list[i])
             return ip_adress_list[i]
@@ -79,3 +52,40 @@ def SqlDHCP():
 def check(mac_adress):
     None
      #SQL request 
+
+def DisplayDatabase(db_file):
+    conn = sqlite3.connect(db_file)
+    cur = conn.cursor()
+    with conn:
+        cur.execute("SELECT * FROM DHCP")
+        print(cur.fetchall())
+
+if __name__ == '__main__':
+
+    HOSTNAME = '127.0.0.1'
+    PORT = 10998
+    ip_adress = "127.0.0.1"
+
+    serversocket = socket.socket(socket.AF_INET,socket.SOCK_STREAM) #IPv4,TCP
+
+    serversocket.bind((HOSTNAME,PORT))
+
+    serversocket.listen()
+
+    (clientsocket, address) = serversocket.accept() #Get the mac adress from client.py
+
+    mac_adress = clientsocket.recv(4096) #recommended number in the doc
+    print(mac_adress.decode())
+
+
+    ip_adress=ip_selection(mac_adress.decode())
+    clientsocket.send(bytes(ip_adress,"UTF-8"))
+
+
+    confirmation = clientsocket.recv(4096)
+    clientsocket.send(bytes("tqt fréro","UTF-8"))
+
+    print(confirmation.decode())
+
+    clientsocket.close()
+    serversocket.close()
