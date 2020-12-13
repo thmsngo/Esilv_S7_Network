@@ -1,5 +1,7 @@
 import sqlite3
 from sqlite3 import Error
+from datetime import date,datetime
+from time import gmtime, strftime
 
 def create_connection(db_file):
     """ create a database connection to a SQLite database """
@@ -21,6 +23,31 @@ def DisplayDatabase(db_file):
         cur.execute("SELECT * FROM DHCP")
         print(cur.fetchall())
 
+def GetaMACaddress():
+    mac_adress=""
+    try:
+        sqliteConnection = sqlite3.connect('server.db')
+        cursor = sqliteConnection.cursor()
+        cursor.execute("""SELECT * FROM Macs ORDER BY random() LIMIT 1;""")
+        mac_adress = cursor.fetchall()
+        cursor.close()
+    except sqlite3.Error as error:
+        print("Failed to get a mac address from sqlite table", error)
+    finally:
+        if (sqliteConnection):
+            sqliteConnection.close()
+    return ''.join(mac_adress[0])
+
 if __name__ == '__main__':
+    """
     create_connection(r"server.db")
     DisplayDatabase(r"server.db")
+
+    mac_adress = GetaMACaddress()
+    print(type(mac_adress))
+    print(mac_adress)
+    """
+    Date=date.today()
+    time=datetime.now().time()
+    print(Date)
+    print(time)
