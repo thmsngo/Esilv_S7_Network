@@ -11,13 +11,11 @@ def ip_creation(mac_adress):
    
 def ip_selection(mac_adress):
     ip_adress_list = SqlDHCP()
-    print(len(ip_adress_list))
     for i in range(len(ip_adress_list)):
-        print(ip_adress_list[i+1])
-        if(ip_adress_list[i+1]==None):
-            InsertMAC(ip_adress_list[i+1],ip_adress_list[i])
+        if(ip_adress_list[i][1]==None):
+            InsertMAC(mac_adress,ip_adress_list[i][0])
             return ip_adress_list[i]
-    return "No adress available"
+    return "No adress available"    
 
 
 def InsertMAC(mac_adress,ip):
@@ -75,17 +73,19 @@ if __name__ == '__main__':
     (clientsocket, address) = serversocket.accept() #Get the mac adress from client.py
 
     mac_adress = clientsocket.recv(4096) #recommended number in the doc
+    
     print(mac_adress.decode())
 
-
     ip_adress=ip_selection(mac_adress.decode())
-    clientsocket.send(bytes(ip_adress,"UTF-8"))
 
+    
+    clientsocket.send(bytes(ip_adress[0],"UTF-8"))
+    
 
     confirmation = clientsocket.recv(4096)
     clientsocket.send(bytes("tqt fréro","UTF-8"))
 
     print(confirmation.decode())
-
+    
     clientsocket.close()
     serversocket.close()

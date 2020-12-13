@@ -15,7 +15,7 @@ clientsocket.send(bytes(mac_adress,"UTF-8"))
 ip_adress= clientsocket.recv(4096)
 print(ip_adress.decode()) 
 
-time.sleep(1) 
+time.sleep(2) 
 
 clientsocket.send(bytes("Merci pour l'adresse ip : "+ ip_adress.decode(),"UTF-8"))
 
