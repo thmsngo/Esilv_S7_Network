@@ -72,7 +72,25 @@ def logs():
         if (sqliteConnection):
             sqliteConnection.close()
     return logList
-
+#write the logs in a txt file
+def day_logs():
+    logList=[]
+    try:
+        sqliteConnection = sqlite3.connect('server.db')
+        cursor = sqliteConnection.cursor()
+        cursor.execute("""SELECT * FROM Logs WHERE Time >= datetime('now','-1 day')""")
+        logList = cursor.fetchall()
+        cursor.close()
+    except sqlite3.Error as error:
+        print("Failed to read data from sqlite table", error)
+    finally:
+        if (sqliteConnection):
+            sqliteConnection.close()
+    with open("day_logs.txt", 'w') as output:
+        for row in logList:
+            output.write(str(row) + '\n')
+    output.close()
+    
 #Retrieve all the IP Address and Mac Address from the Database
 def SqlDHCP():
     addressList=[]
@@ -159,6 +177,7 @@ if __name__ == '__main__':
     
     #Retrieval server's logs
     InsertLog(mac_address.decode(),ip_address,domain.decode())
+    day_logs()
     
     #Ask client to display logs
     AskDisplayLogs()
