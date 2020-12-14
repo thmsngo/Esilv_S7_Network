@@ -21,8 +21,7 @@ def ip_selection(mac_address):
             InsertMAC(mac_address,ip_address_list[i][0])
             #InsertLog(ip_address_list[i][0],"DHCP")
             return ip_address_list[i]
-        else:
-            return "No address available" 
+    return "No address available" 
 
 #Update Database with the mac address of the client
 def InsertMAC(mac_address,ip):
@@ -58,12 +57,15 @@ def InsertLog(mac,ip_address,domain):
             conn.close()
   
 #Retrieve all the logs from the database
-def logs():
+def logs(sort):
     logList=[]
     try:
         sqliteConnection = sqlite3.connect('server.db')
         cursor = sqliteConnection.cursor()
-        cursor.execute("""SELECT * from Logs""")
+        if(sort==0) : cursor.execute("""SELECT Content from Logs""")
+        if(sort==1) : cursor.execute("""SELECT Content from Logs ORDER BY IP_Used""")
+        if(sort==2) : cursor.execute("""SELECT Content from Logs ORDER BY Date""")
+        if(sort==3) : cursor.execute("""SELECT Content from Logs ORDER BY Time""")
         logList = cursor.fetchall()
         cursor.close()
     except sqlite3.Error as error:
@@ -136,7 +138,10 @@ def AskDisplayLogs():
     clientsocket.send(bytes("Server: Do you want to display logs ? y or n","UTF-8"))
     confirmation = clientsocket.recv(4096)
     if(confirmation.decode()=="y" or confirmation.decode()=="Y" or confirmation.decode()=="yes"):
-        data=str(logs())
+        clientsocket.send(bytes("Sort by IP (1), by date (2), or by time (3) or no filter (0)","UTF-8"))
+        rep = clientsocket.recv(4096)
+        sort=int(rep.decode())
+        data=str(logs(sort))
         clientsocket.send(bytes(data,"UTF-8"))
     else:
         clientsocket.send(bytes("Server: Okay I don't display logs","UTF-8"))
@@ -161,6 +166,7 @@ if __name__ == '__main__':
 
     if (ip_address=="No address available"):
         clientsocket.send(bytes("Server: There aren't any IP address available","UTF-8"))
+        clientsocket.close()
     else:
         clientsocket.send(bytes("Server: Your IP address is "+ip_address[0],"UTF-8"))
     

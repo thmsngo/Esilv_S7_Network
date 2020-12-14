@@ -38,26 +38,36 @@ if __name__ == '__main__':
     clientsocket.send(bytes(mac_address,"UTF-8")) 
     ip_address= clientsocket.recv(4096) 
     print(ip_address.decode())
-    time.sleep(2) 
-
-    #Confirmation to the server
-    clientsocket.send(bytes("Client: Thanks for the IP address","UTF-8"))
-
-    #Send a domain name and call the DNS SERVER to receive the IP
-    domain=input("Type a domain name >")
-    clientsocket.send(bytes(domain,"UTF-8")) 
-    ip_domain= clientsocket.recv(4096)
-    print(ip_domain.decode())
-
-    #Respond to demand of display logs
-    display_logs= clientsocket.recv(4096) 
-    print(display_logs.decode())
-    display_logs_respond=input()
-    clientsocket.send(bytes(display_logs_respond,"UTF-8")) 
-    display_logs= clientsocket.recv(4096)
-    print(display_logs.decode())
-
-    #Closing socket
-    clientsocket.close()
+    if(ip_address.decode()=="Server: There aren't any IP address available"):
+        clientsocket.close()
+    else:
+        time.sleep(2) 
+    
+        #Confirmation to the server
+        clientsocket.send(bytes("Client: Thanks for the IP address","UTF-8"))
+    
+        #Send a domain name and call the DNS SERVER to receive the IP
+        domain=input("Type a domain name >")
+        clientsocket.send(bytes(domain,"UTF-8")) 
+        ip_domain= clientsocket.recv(4096)
+        print(ip_domain.decode())
+    
+        #Respond to demand of display logs
+        display_logs= clientsocket.recv(4096) 
+        print(display_logs.decode())
+        display_logs_respond=input()
+        clientsocket.send(bytes(display_logs_respond,"UTF-8")) 
+        
+        #Sort the logs or not
+        display_logs_type= clientsocket.recv(4096)
+        print(display_logs_type.decode())
+        display_logs_type_respond=input()
+        clientsocket.send(bytes(display_logs_type_respond,"UTF-8")) 
+        
+        display_logs= clientsocket.recv(4096)
+        print(display_logs.decode())
+    
+        #Closing socket
+        clientsocket.close()
 
 
