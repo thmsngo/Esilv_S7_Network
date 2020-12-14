@@ -12,6 +12,19 @@ def ip_creation(mac_address):
         print("Access Denied")
  """
 
+#Check in the Database if the mac address of the client is an unauthorized mac adress
+def CheckMAC(mac_address):
+    validity = True
+    conn = sqlite3.connect('server.db')
+    cur = conn.cursor()
+    sql = "SELECT Unauthorized_Mac_Address FROM Macs WHERE Unauthorized_Mac_Address LIKE '?';"
+    cur.execute(sql,(mac_address))
+    if(''.join(cur.fetchall()[0])==mac_address):
+        validity = False
+    conn.commit()
+    cur.close()
+    conn.close()
+    return validity
 
 #Choose the first free IP_Address, and update it with the mac_address
 def ip_selection(mac_address):
@@ -191,5 +204,5 @@ if __name__ == '__main__':
     AskDisplayLogs()
 
     #Closing socket
-    serversocket.close()
     clientsocket.close()
+    serversocket.close()
