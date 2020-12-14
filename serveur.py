@@ -86,7 +86,9 @@ def day_logs():
     finally:
         if (sqliteConnection):
             sqliteConnection.close()
-    with open("day_logs.txt", 'w') as output:
+    day = date.today().strftime("%b-%d-%Y")
+    file_name = "day_logs_" + day +".txt"
+    with open(file_name, 'w') as output:
         for row in logList:
             output.write(str(row) + '\n')
     output.close()
