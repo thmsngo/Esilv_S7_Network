@@ -78,7 +78,7 @@ def day_logs():
     try:
         sqliteConnection = sqlite3.connect('server.db')
         cursor = sqliteConnection.cursor()
-        cursor.execute("""SELECT * FROM Logs WHERE Time >= datetime('now','-1 day')""")
+        cursor.execute("""SELECT * FROM Logs WHERE Date >= datetime('now','localtime','-1 day')""")
         logList = cursor.fetchall()
         cursor.close()
     except sqlite3.Error as error:
