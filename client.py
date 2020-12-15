@@ -11,7 +11,7 @@ def GetaMACaddress():
     try:
         sqliteConnection = sqlite3.connect('server.db')
         cursor = sqliteConnection.cursor()
-        cursor.execute("""SELECT * FROM Macs ORDER BY random() LIMIT 1;""")
+        cursor.execute("""SELECT Mac_address FROM Macs ORDER BY random() LIMIT 1;""")
         mac_address = cursor.fetchall()
         cursor.close()
     except sqlite3.Error as error:
