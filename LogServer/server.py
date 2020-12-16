@@ -1,6 +1,20 @@
 from scapy.all import *
 import sqlite3
-import time
+import datetime
+
+'''
+Pour utiliser datetime :
+
+datetime.datetime.now()
+datetime.datetime(2020, 12, 16, 14, 46, 19, 443506)
+
+datetime.datetime.now().time()
+datetime.time(14, 46, 32, 566475)
+
+Convert to string: 
+str(datetime.datetime.now().time())
+'14:45:37.410333'
+'''
 
 def mainSniff(p):
 
@@ -22,3 +36,4 @@ def mainSniff(p):
 
     
 sniff(prn=mainSniff,filter="port 53 or port 67 or port 68",store=0)
+#store=0 : Sinon on garde tout dans sniff() et au bout d'un moment ça va faire beaucoup
