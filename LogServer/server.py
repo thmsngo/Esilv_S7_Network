@@ -16,6 +16,7 @@ str(datetime.datetime.now().time())
 '14:45:37.410333'
 '''
 
+#Commentaire Mathieu blalba
 def mainSniff(p):
 
     if(p.dport == 53)or(p.sport == 53):
