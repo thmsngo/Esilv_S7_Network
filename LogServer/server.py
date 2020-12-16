@@ -18,15 +18,34 @@ str(datetime.datetime.now().time())
 
 def mainSniff(p):
 
+
     if(p.dport == 53)or(p.sport == 53):
 
-        if p.qr == 1 and p.ancount >= 1: 
+        domainName = p.qd.qname #type : <class 'bytes'>
+        domainName = domainName.decode() #type : <class 'str'>
 
-            domainName = p.qd.qname #type : <class 'bytes'>
-            domainName = domainName.decode() #type : <class 'str'>
+        typeRequest = p.qr
 
-            ip = p.an.rdata #type : <class 'str'>
-            print("Nom de domaine : {} | IP : {}".format(domainName,ip))
+        if typeRequest == 1 :
+
+            if p.ancount >= 1: 
+
+                ip = p.an.rdata #type : <class 'str'>
+
+                logRequest = "Answer DNS | Domain name : {} | IP : {}".format(domainName,ip)
+
+            else:
+                logRequest = "Answer DNS | Domain name : {} | IP : Incorrect".format(domainName)
+
+        else:
+
+            logRequest = "Query DNS | Domain name : {} ".format(domainName)
+
+        print(logRequest)
+
+        #Checker si c'est autorisé 
+        #On le met dans le fichier du jour
+        #On l'enregistre dans la database
 
     if(p.dport == 67)or(p.sport == 67):
         pass
