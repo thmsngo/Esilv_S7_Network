@@ -14,6 +14,23 @@ c.execute('''CREATE TABLE logs
 
 c.execute('''INSERT INTO logs
 VALUES('f4:6b:ef:6a:ad:c7','7c:67:a2:19:ec:e1','8.8.8.8','173.37.22.33',53,6678,'2020-12-16','14:45:37.410333','Rep blbablabla')''')
+
+conn.commit()
+
+c.execute('''CREATE TABLE unauthorizedMac
+(mac TEXT)''')
+
+c.execute('''INSERT INTO unauthorizedMac
+VALUES('f4:b5:ef:6a')''')
+
+conn.commit()
+
+c.execute('''CREATE TABLE unauthorizedDns
+(ip TEXT)''')
+
+c.execute('''INSERT INTO unauthorizedMac
+VALUES('8.8.8.1')''')
+
 conn.commit()
 
 conn.close()
