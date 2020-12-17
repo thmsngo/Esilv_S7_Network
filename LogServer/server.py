@@ -1,7 +1,6 @@
 from scapy.all import *
 import sqlite3
-import datetime
-
+from datetime import date,datetime
 '''
 Pour utiliser datetime :
 
@@ -45,6 +44,11 @@ def mainSniff(p):
 
         #Checker si c'est autorisé 
         #On le met dans le fichier du jour
+        day = date.today().strftime("%b-%d-%Y")
+        file_name = "day_logs_" + day +".txt"
+        with open(file_name, 'a') as output:
+            output.write(logRequest + '\n')
+        output.close()
         #On l'enregistre dans la database
 
     if(p.dport == 67)or(p.sport == 67):

@@ -1,0 +1,8 @@
+Query DNS | Domain name : api.github.com. 
+Answer DNS | Domain name : api.github.com. | IP : 140.82.121.5
+Query DNS | Domain name : elb-fra-amz.nimbus.bitdefender.net. 
+Answer DNS | Domain name : elb-fra-amz.nimbus.bitdefender.net. | IP : b'kube-nimbus-1314339100.eu-central-1.elb.amazonaws.com.'
+Query DNS | Domain name : checkappexec.microsoft.com. 
+Answer DNS | Domain name : checkappexec.microsoft.com. | IP : b'wd-prod-ss.trafficmanager.net.'
+Query DNS | Domain name : elb-fra-amz.nimbus.bitdefender.net. 
+Answer DNS | Domain name : elb-fra-amz.nimbus.bitdefender.net. | IP : b'kube-nimbus-1314339100.eu-central-1.elb.amazonaws.com.'
