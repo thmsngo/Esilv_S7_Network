@@ -1,5 +1,6 @@
 from scapy.all import *
 import sqlite3
+import smtplib, ssl
 from datetime import date,datetime
 '''
 Pour utiliser datetime :
@@ -63,6 +64,24 @@ def unauthorizedDHCP(mac):
         if (conn):
             conn.close()
     return valide
+
+def mail():
+    portEmail = 465  # For SSL
+    smtp_server = "smtp.gmail.com"
+    sender_email = "projetnetwork9@gmail.com"  # Enter your address
+    receiver_email = "projetnetwork9@gmail.com"  # Enter receiver address
+    message = """\
+    Subject: DDOS ATTEMPT
+    
+    Server received a lot of request. 
+    There is a high probability that a ddos is trying to shutdown the server."""
+    
+    context = ssl.create_default_context()
+    for i in range(50):
+        with smtplib.SMTP_SSL(smtp_server, portEmail, context=context) as server:
+            server.login(sender_email, "ProjetNetwork1!")
+            server.sendmail(sender_email, receiver_email, message)
+            
 
 def mainSniff(p):
 
