@@ -108,7 +108,7 @@ def mainSniff(p):
 
         if typeRequest == 1 :
 
-            if p.ancount >= 1: 
+            if p.ancount >= 1: #Answer
 
                 ip = p.an.rdata #type : <class 'str'>
 
@@ -117,13 +117,14 @@ def mainSniff(p):
             else:
                 logRequest = "Answer DNS | Domain name : {} | IP : Incorrect".format(domainName)
                 log.append(logRequest)
-        else:
+
+        elif typeRequest == 0 : #Query
 
             logRequest = "Query DNS | Domain name : {} ".format(domainName)
             log.append(logRequest)
-        print(logRequest)
+   
 
-        print(log)
+    
         #Checker si c'est autorisé 
         #On le met dans le fichier du jour
         day = str(date.today())
@@ -138,7 +139,7 @@ def mainSniff(p):
         output.close()
 
         insertLog(log)
-        #On l'enregistre dans la database
+        print(log)
 
     if(p.dport == 67)or(p.sport == 68):
 
@@ -151,16 +152,42 @@ def mainSniff(p):
         portDst = p.dport
         date_d = str(date.today())
         time_t = str(datetime.today().time())
-        p=p[3]
-        hostname = p.options[5][1].decode()
-        ip_p = p.options[2][1]
-        request=""
-        if unauthorizedDHCP(macSrc):
-            request = "Host {} ({}) requested {}".format(macSrc,hostname,ip_p)
-        else:
-            request="UNAUTHORIZED MAC {} DETECTED ON DHCP FROM {}".format(macSrc,hostname)
-        logs = [macSrc,macDst,ipSrc,ipDst,portSrc,portDst,date_d,time_t,request]
-        print(logs)
+
+        if p[3].options[0][1] == 1: #discover
+
+            vendor_class_id = p[3].options[3][1].decode()
+            request = ""
+            if unauthorizedDHCP(macSrc):
+                request = "Discover DHCP | Vendor class id {}".format(vendor_class_id)
+            else:
+                request="Discover DHCP | UNAUTHORIZED MAC {} DETECTED ON DHCP".format(macSrc)
+
+        elif p[3].options[0][1] == 3: #request
+
+            vendor_class_id = p[3].options[5][1].decode()
+            ip_p = p[3].options[2][1]
+            request = ""
+            if unauthorizedDHCP(macSrc):
+                request = "Request DHCP | Vendor class id {} ({}) requested {}".format(vendor_class_id,macSrc,ip_p)
+            else:
+                request="Request DHCP | UNAUTHORIZED MAC {} DETECTED ON DHCP FROM {}".format(macSrc,vendor_class_id)
+
+        log = [macSrc,macDst,ipSrc,ipDst,portSrc,portDst,date_d,time_t,request]
+
+        day = str(date.today())
+        file_name = "day_logs_" + day +".txt"
+
+        logStr = ""
+        for elt in log:
+            logStr += str(elt)+" | "
+
+        
+        with open(file_name, 'a') as output:
+            output.write(logStr + '\n')
+        output.close()
+
+        insertLog(log)
+        print(log)
     
 sniff(prn=mainSniff,filter="port 68 or port 67 or port 53",store=0)
 #store=0 : Sinon on garde tout dans sniff() et au bout d'un moment ça va faire beaucoup
