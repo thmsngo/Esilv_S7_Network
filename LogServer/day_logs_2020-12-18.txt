@@ -148,3 +148,65 @@ d0:ab:d5:da:a6:f1 | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 20
 d0:84:b0:f7:7f:fc | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 00:06:55.398307 | UNAUTHORIZED MAC d0:84:b0:f7:7f:fc DETECTED ON DHCP FROM MSFT 5.0 | 
 d0:84:b0:f7:7f:fc | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 00:06:59.341304 | UNAUTHORIZED MAC d0:84:b0:f7:7f:fc DETECTED ON DHCP FROM MSFT 5.0 | 
 d0:ab:d5:da:a6:f1 | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 00:06:59.376337 | Host d0:ab:d5:da:a6:f1 (MSFT 5.0) requested 192.168.0.11 | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 8.8.8.8 | 62404 | 53 | 2020-12-18 | 00:29:01.089764 | DNS IS BANNED | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 8.8.8.8 | 192.168.0.11 | 53 | 62404 | 2020-12-18 | 00:29:01.216729 | DNS IS BANNED | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 8.8.8.8 | 62405 | 53 | 2020-12-18 | 00:29:01.304729 | DNS IS BANNED | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 8.8.8.8 | 192.168.0.11 | 53 | 62405 | 2020-12-18 | 00:29:01.403729 | DNS IS BANNED | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 8.8.8.8 | 62406 | 53 | 2020-12-18 | 00:29:01.483734 | DNS IS BANNED | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 8.8.8.8 | 192.168.0.11 | 53 | 62406 | 2020-12-18 | 00:29:01.561733 | DNS IS BANNED | 
+d0:84:b0:f7:7f:fc | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 00:29:14.659732 | Request DHCP | UNAUTHORIZED MAC d0:84:b0:f7:7f:fc DETECTED ON DHCP FROM MSFT 5.0 | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 55886 | 53 | 2020-12-18 | 00:29:15.126641 | Query DNS | Domain name : dns.google.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 55886 | 2020-12-18 | 00:29:15.395644 | Answer DNS | Domain name : dns.google. | IP : 8.8.8.8 | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 55877 | 53 | 2020-12-18 | 00:29:15.836643 | Query DNS | Domain name : www.msftconnecttest.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 55877 | 2020-12-18 | 00:29:16.215644 | Answer DNS | Domain name : www.msftconnecttest.com. | IP : b'v4ncsi.msedge.net.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 52340 | 53 | 2020-12-18 | 00:29:16.605644 | Query DNS | Domain name : onlinecheck.wildtangent.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 52340 | 2020-12-18 | 00:29:16.861643 | Answer DNS | Domain name : onlinecheck.wildtangent.com. | IP : b'onlinecheck-wildtangent-yfdbl8gzl.stackpathdns.com.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 59143 | 53 | 2020-12-18 | 00:29:17.105642 | Query DNS | Domain name : 1uzxr3b3jraw5nlmnvbsikiioud2vilw5.web-networking.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 59143 | 2020-12-18 | 00:29:17.361643 | Answer DNS | Domain name : 1uzxr3b3jraw5nlmnvbsikiioud2vilw5.web-networking.com. | IP : b'd3da0eq1l21vt3.cloudfront.net.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 52531 | 53 | 2020-12-18 | 00:29:17.646645 | Query DNS | Domain name : outlook.office365.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 52531 | 2020-12-18 | 00:29:18.301642 | Answer DNS | Domain name : outlook.office365.com. | IP : b'outlook.ha.office365.com.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 63793 | 53 | 2020-12-18 | 00:29:19.009643 | Query DNS | Domain name : outlook.office365.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 63793 | 2020-12-18 | 00:29:19.333643 | Answer DNS | Domain name : outlook.office365.com. | IP : b'outlook.ha.office365.com.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 64146 | 53 | 2020-12-18 | 00:29:19.688642 | Query DNS | Domain name : client.wns.windows.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 64146 | 2020-12-18 | 00:29:20.182642 | Answer DNS | Domain name : client.wns.windows.com. | IP : b'wns.notify.windows.com.akadns.net.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 65007 | 53 | 2020-12-18 | 00:29:20.530643 | Query DNS | Domain name : licensing.mp.microsoft.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 65007 | 2020-12-18 | 00:29:20.957642 | Answer DNS | Domain name : licensing.mp.microsoft.com. | IP : b'licensing.md.mp.microsoft.com.akadns.net.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 61290 | 53 | 2020-12-18 | 00:29:21.254642 | Query DNS | Domain name : elb-fra-amz.nimbus.bitdefender.net.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 61290 | 2020-12-18 | 00:29:21.479643 | Answer DNS | Domain name : elb-fra-amz.nimbus.bitdefender.net. | IP : b'kube-nimbus-1314339100.eu-central-1.elb.amazonaws.com.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 65107 | 53 | 2020-12-18 | 00:29:21.686643 | Query DNS | Domain name : elb-irl-amz.nimbus.bitdefender.net.  | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.2 | 65108 | 53 | 2020-12-18 | 00:29:23.361668 | Query DNS | Domain name : elb-fra-amz.nimbus.bitdefender.net.  | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 65107 | 53 | 2020-12-18 | 00:29:23.506645 | Query DNS | Domain name : elb-nvi-amz.nimbus.bitdefender.net.  | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.2 | 65108 | 53 | 2020-12-18 | 00:29:23.723642 | Query DNS | Domain name : elb-ore-amz.nimbus.bitdefender.net.  | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 65107 | 53 | 2020-12-18 | 00:29:23.872677 | Query DNS | Domain name : elb-tky-amz.nimbus.bitdefender.net.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.2 | 192.168.0.11 | 53 | 65108 | 2020-12-18 | 00:29:24.133674 | Answer DNS | Domain name : elb-fra-amz.nimbus.bitdefender.net. | IP : b'kube-nimbus-1314339100.eu-central-1.elb.amazonaws.com.' | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.2 | 192.168.0.11 | 53 | 65108 | 2020-12-18 | 00:29:24.372641 | Answer DNS | Domain name : elb-ore-amz.nimbus.bitdefender.net. | IP : b'kube-nimbus-471965604.us-west-2.elb.amazonaws.com.' | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 65107 | 2020-12-18 | 00:29:24.545641 | Answer DNS | Domain name : elb-irl-amz.nimbus.bitdefender.net. | IP : b'kube-nimbus-1399884016.eu-west-1.elb.amazonaws.com.' | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 65107 | 2020-12-18 | 00:29:24.900642 | Answer DNS | Domain name : elb-nvi-amz.nimbus.bitdefender.net. | IP : b'kube-nimbus-1671728955.us-east-1.elb.amazonaws.com.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.2 | 65108 | 53 | 2020-12-18 | 00:29:25.314643 | Query DNS | Domain name : elb-tky-amz.nimbus.bitdefender.net.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.2 | 192.168.0.11 | 53 | 65108 | 2020-12-18 | 00:29:26.298643 | Answer DNS | Domain name : elb-tky-amz.nimbus.bitdefender.net. | IP : b'kube-nimbus-1822964958.ap-northeast-1.elb.amazonaws.com.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 58349 | 53 | 2020-12-18 | 00:29:28.035643 | Query DNS | Domain name : northeurope-prod-3.notifications.teams.microsoft.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 58349 | 2020-12-18 | 00:29:28.701642 | Answer DNS | Domain name : northeurope-prod-3.notifications.teams.microsoft.com. | IP : b'northeuropecns-prod-3.trafficmanager.net.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 62403 | 53 | 2020-12-18 | 00:29:31.736642 | Query DNS | Domain name : v20.events.data.microsoft.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 62403 | 2020-12-18 | 00:29:32.195665 | Answer DNS | Domain name : v20.events.data.microsoft.com. | IP : b'global.asimov.events.data.trafficmanager.net.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 50111 | 53 | 2020-12-18 | 00:29:35.645675 | Query DNS | Domain name : checkappexec.microsoft.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 50111 | 2020-12-18 | 00:29:36.205640 | Answer DNS | Domain name : checkappexec.microsoft.com. | IP : b'wd-prod-ss.trafficmanager.net.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 61997 | 53 | 2020-12-18 | 00:30:00.350642 | Query DNS | Domain name : tsfe.trafficshaping.dsp.mp.microsoft.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 61997 | 2020-12-18 | 00:30:00.852641 | Answer DNS | Domain name : tsfe.trafficshaping.dsp.mp.microsoft.com. | IP : b'tsfe.trafficmanager.net.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 58554 | 53 | 2020-12-18 | 00:30:14.523675 | Query DNS | Domain name : v10.events.data.microsoft.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 58554 | 2020-12-18 | 00:30:15.210642 | Answer DNS | Domain name : v10.events.data.microsoft.com. | IP : b'global.asimov.events.data.trafficmanager.net.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 64875 | 53 | 2020-12-18 | 00:30:16.565642 | Query DNS | Domain name : ocsp.digicert.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 64875 | 2020-12-18 | 00:30:17.223641 | Answer DNS | Domain name : ocsp.digicert.com. | IP : b'cs9.wac.phicdn.net.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 61767 | 53 | 2020-12-18 | 00:30:18.580644 | Query DNS | Domain name : tile-service.weather.microsoft.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 61767 | 2020-12-18 | 00:30:19.179642 | Answer DNS | Domain name : tile-service.weather.microsoft.com. | IP : b'wildcard.weather.microsoft.com.edgekey.net.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 51165 | 53 | 2020-12-18 | 00:30:21.756644 | Query DNS | Domain name : outlook.office365.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 51165 | 2020-12-18 | 00:30:24.687642 | Answer DNS | Domain name : outlook.office365.com. | IP : b'outlook.ha.office365.com.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 61285 | 53 | 2020-12-18 | 00:30:28.340676 | Query DNS | Domain name : elb-fra-amz.nimbus.bitdefender.net.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 61285 | 2020-12-18 | 00:30:28.886643 | Answer DNS | Domain name : elb-fra-amz.nimbus.bitdefender.net. | IP : b'kube-nimbus-1314339100.eu-central-1.elb.amazonaws.com.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 56148 | 53 | 2020-12-18 | 00:30:31.264675 | Query DNS | Domain name : login.live.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 56148 | 2020-12-18 | 00:30:31.889642 | Answer DNS | Domain name : login.live.com. | IP : b'login.msa.msidentity.com.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 55844 | 53 | 2020-12-18 | 00:30:32.750641 | Query DNS | Domain name : settings-win.data.microsoft.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 55844 | 2020-12-18 | 00:30:33.386642 | Answer DNS | Domain name : settings-win.data.microsoft.com. | IP : b'settingsfd-geo.trafficmanager.net.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 64163 | 53 | 2020-12-18 | 00:31:03.590654 | Query DNS | Domain name : api.github.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 64163 | 2020-12-18 | 00:31:04.224643 | Answer DNS | Domain name : api.github.com. | IP : 140.82.121.6 | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 55133 | 53 | 2020-12-18 | 00:31:07.776642 | Query DNS | Domain name : presence.teams.microsoft.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 55133 | 2020-12-18 | 00:31:08.487640 | Answer DNS | Domain name : presence.teams.microsoft.com. | IP : b'presence.services.sfb.trafficmanager.net.' | 
