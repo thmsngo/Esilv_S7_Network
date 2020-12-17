@@ -27,6 +27,25 @@ def insertLog(log):
     finally:
         if (conn):
             conn.close()
+            
+def unauthorizedDNS(dns):
+    valide=True
+    try:
+        conn = sqlite3.connect('logserver.db')
+        cur = conn.cursor()
+        sql="SELECT * FROM unauthorizedDns WHERE ip=?"
+        values=(dns,)
+        cur.execute(sql,values)
+        listUnauthorized=cur.fetchall()
+        if(listUnauthorized.size()>0):
+            valide=False
+    except sqlite3.Error as error:
+        print("Failed to read data from sqlite table", error)
+    finally:
+        if (conn):
+            conn.close()
+    return valide
+    
 
 def mainSniff(p):
 
