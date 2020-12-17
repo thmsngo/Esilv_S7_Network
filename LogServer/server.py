@@ -92,10 +92,16 @@ def mainSniff(p):
 
         #Checker si c'est autorisé 
         #On le met dans le fichier du jour
-        day = date.today().strftime("%b-%d-%Y")
+        day = str(date.today())
         file_name = "day_logs_" + day +".txt"
+
+        logStr = ""
+
+        for elt in log:
+            logStr += str(elt)+" | "
+
         with open(file_name, 'a') as output:
-            output.write(logRequest + '\n')
+            output.write(logStr + '\n')
         output.close()
         #On l'enregistre dans la database
 
