@@ -118,7 +118,7 @@ def mainSniff(p):
         ip_p = p.options[2][1]
         request = "Host {} ({}) requested {}".format(macSrc,hostname,ip_p)
         
-        logs = [macSrc,macDst,ipSrc,ipDst,portSrc,portDst,date_d,date_d,request]
+        logs = [macSrc,macDst,ipSrc,ipDst,portSrc,portDst,date_d,time_t,request]
         print(logs)
     
 sniff(prn=mainSniff,filter="port 68 or port 67 or port 53",store=0)

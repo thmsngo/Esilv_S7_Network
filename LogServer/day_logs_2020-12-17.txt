@@ -7,3 +7,19 @@ f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 60846 | 2
 f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 50806 | 2020-12-17 | 19:38:55.126373 | Answer DNS | Domain name : louvre.fr. | IP : 89.185.38.253 | 
 7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 51135 | 53 | 2020-12-17 | 19:38:58.563919 | Query DNS | Domain name : vortex.data.microsoft.com.  | 
 f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 51135 | 2020-12-17 | 19:38:58.610921 | Answer DNS | Domain name : vortex.data.microsoft.com. | IP : b'asimov.vortex.data.trafficmanager.net.' | 
+e4:70:b8:5d:be:89 | 74:da:88:05:a0:75 | 192.168.0.104 | 192.168.0.1 | 34459 | 53 | 2020-12-17 | 21:12:42.444768 | Query DNS | Domain name : global.vortex.data.trafficmanager.net.  | 
+e4:70:b8:5d:be:89 | 74:da:88:05:a0:75 | 192.168.0.104 | 192.168.0.1 | 57993 | 53 | 2020-12-17 | 21:12:42.461234 | Query DNS | Domain name : global.vortex.data.trafficmanager.net.  | 
+74:da:88:05:a0:75 | e4:70:b8:5d:be:89 | 192.168.0.1 | 192.168.0.104 | 53 | 34459 | 2020-12-17 | 21:12:42.470301 | Answer DNS | Domain name : global.vortex.data.trafficmanager.net. | IP : 40.77.226.250 | 
+74:da:88:05:a0:75 | e4:70:b8:5d:be:89 | 192.168.0.1 | 192.168.0.104 | 53 | 57993 | 2020-12-17 | 21:12:42.477778 | Answer DNS | Domain name : global.vortex.data.trafficmanager.net. | IP : Incorrect | 
+e4:70:b8:5d:be:89 | 74:da:88:05:a0:75 | 192.168.0.104 | 192.168.0.1 | 52924 | 53 | 2020-12-17 | 21:12:54.298564 | Query DNS | Domain name : locprod2-elb-us-west-2.prod.mozaws.net.  | 
+e4:70:b8:5d:be:89 | 74:da:88:05:a0:75 | 192.168.0.104 | 192.168.0.1 | 39173 | 53 | 2020-12-17 | 21:12:54.308517 | Query DNS | Domain name : locprod2-elb-us-west-2.prod.mozaws.net.  | 
+74:da:88:05:a0:75 | e4:70:b8:5d:be:89 | 192.168.0.1 | 192.168.0.104 | 53 | 52924 | 2020-12-17 | 21:12:54.315544 | Answer DNS | Domain name : locprod2-elb-us-west-2.prod.mozaws.net. | IP : 52.42.151.74 | 
+74:da:88:05:a0:75 | e4:70:b8:5d:be:89 | 192.168.0.1 | 192.168.0.104 | 53 | 39173 | 2020-12-17 | 21:12:54.321941 | Answer DNS | Domain name : locprod2-elb-us-west-2.prod.mozaws.net. | IP : Incorrect | 
+e4:70:b8:5d:be:89 | 74:da:88:05:a0:75 | 192.168.0.104 | 192.168.0.1 | 46485 | 53 | 2020-12-17 | 21:13:56.136304 | Query DNS | Domain name : global.vortex.data.trafficmanager.net.  | 
+74:da:88:05:a0:75 | e4:70:b8:5d:be:89 | 192.168.0.1 | 192.168.0.104 | 53 | 46485 | 2020-12-17 | 21:13:56.147830 | Answer DNS | Domain name : global.vortex.data.trafficmanager.net. | IP : Incorrect | 
+e4:70:b8:5d:be:89 | 74:da:88:05:a0:75 | 192.168.0.104 | 192.168.0.1 | 46577 | 53 | 2020-12-17 | 21:14:00.082111 | Query DNS | Domain name : github.com.  | 
+e4:70:b8:5d:be:89 | 74:da:88:05:a0:75 | 192.168.0.104 | 192.168.0.1 | 40455 | 53 | 2020-12-17 | 21:14:00.088428 | Query DNS | Domain name : github.com.  | 
+74:da:88:05:a0:75 | e4:70:b8:5d:be:89 | 192.168.0.1 | 192.168.0.104 | 53 | 46577 | 2020-12-17 | 21:14:00.096391 | Answer DNS | Domain name : github.com. | IP : 140.82.121.4 | 
+74:da:88:05:a0:75 | e4:70:b8:5d:be:89 | 192.168.0.1 | 192.168.0.104 | 53 | 40455 | 2020-12-17 | 21:14:00.101251 | Answer DNS | Domain name : github.com. | IP : Incorrect | 
+e4:70:b8:5d:be:89 | 74:da:88:05:a0:75 | 192.168.0.104 | 192.168.0.1 | 51697 | 53 | 2020-12-17 | 21:14:02.236244 | Query DNS | Domain name : u-11998.onetouch6.com.  | 
+74:da:88:05:a0:75 | e4:70:b8:5d:be:89 | 192.168.0.1 | 192.168.0.104 | 53 | 51697 | 2020-12-17 | 21:14:02.254408 | Answer DNS | Domain name : u-11998.onetouch6.com. | IP : 172.64.174.26 | 
