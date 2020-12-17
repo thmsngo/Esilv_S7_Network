@@ -66,3 +66,7 @@ Query DNS | Domain name : louvre.fr.
 Answer DNS | Domain name : louvre.fr. | IP : 89.185.38.253
 Query DNS | Domain name : vortex.data.microsoft.com. 
 Answer DNS | Domain name : vortex.data.microsoft.com. | IP : b'asimov.vortex.data.trafficmanager.net.'
+Query DNS | Domain name : louvre.fr. 
+Answer DNS | Domain name : louvre.fr. | IP : 89.185.38.253
+Query DNS | Domain name : vortex.data.microsoft.com. 
+Answer DNS | Domain name : vortex.data.microsoft.com. | IP : b'asimov.vortex.data.trafficmanager.net.'

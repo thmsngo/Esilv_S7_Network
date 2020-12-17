@@ -14,14 +14,12 @@ Convert to string:
 str(datetime.datetime.now().time())
 '14:45:37.410333'
 '''
-def insertLog(macSrc,macDst,ipSrc,ipDst,portSrc,portDST,request):
+def insertLog(log):
     try:
         conn = sqlite3.connect('logserver.db')
         cur = conn.cursor()
         sql="INSERT INTO logs(macSrc,macDst,ipSrc,ipDst,portSrc,portDST,date,time,request) VALUES(?,?,?,?,?,?,?,?,?)"
-        day=date.today()
-        time=datetime.datetime.now().time()
-        values=(macSrc,macDst,ipSrc,ipDst,portSrc,portDST,str(day),str(time),request)
+        values=(log[0],log[1],log[2],log[3],log[4],log[5],log[6],log[7],log[8])
         cur.execute(sql,values)
         cur.commit()
     except sqlite3.Error as error:
@@ -45,7 +43,6 @@ def mainSniff(p):
         log.append(p.dport)
         log.append(str(date.today()))
         log.append(str(datetime.today().time()))
-        print(log)
 
         domainName = p.qd.qname #type : <class 'bytes'>
         domainName = domainName.decode() #type : <class 'str'>
