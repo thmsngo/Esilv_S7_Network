@@ -52,10 +52,12 @@ def mainSniff(p):
         #On l'enregistre dans la database
 
     if(p.dport == 67)or(p.sport == 67):
-        pass
+        print(p.summary)
+        print()
 
     if(p.dport == 68)or(p.sport == 68):
-        pass
+        print(p.summary)
+        print()
 
     
 sniff(prn=mainSniff,filter="port 68 or port 67 or port 53",store=0)
