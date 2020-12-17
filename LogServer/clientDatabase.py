@@ -8,22 +8,22 @@ def logs(request):
         cur = conn.cursor()
         #Display all logs
         if request=="all":
-            cur.execute("SELECT macSrc,request FROM logs")
+            cur.execute("SELECT * FROM logs ORDER BY macSrc")
             
         #Display logs of the day
         elif request=="day":
-            sql="SELECT macSrc,request FROM logs WHERE date=?"
+            sql="SELECT * FROM logs WHERE date=?"
             value=(str(date.today()),)
             cur.execute(sql,value)
             
         #Display DNS logs
         elif(request=="dns"):
-            cur.execute("SELECT macSrc,request FROM logs WHERE portSrc=53 or portDst=53")
+            cur.execute("SELECT * FROM logs WHERE portSrc=53 or portDst=53 ORDER BY macSrc")
             
         #Display DHCP logs
         elif(request=="dhcp"):
-            cur.execute("SELECT macSrc,request FROM logs WHERE portSrc=67 or portSrc=68 "+
-                        "or portDst=67 or portDst=68")
+            cur.execute("SELECT * FROM logs WHERE portSrc=67 or portSrc=68 "+
+                        "or portDst=67 or portDst=68 ORDER BY macSrc")
             
         logList = cur.fetchall()
         cur.close()
@@ -74,19 +74,39 @@ if __name__== '__main__' :
         if(rep=="1"):
             logList=logs("day")
             for record in logList:
-                print(record[0]+" : "+record[1])
+                print()
+                print("macSrc :"+record[0]+"  macDst :"+record[1]+
+                      "IpSrc :"+record[2]+"  IpDst :"+record[3]+
+                      "portSrc :"+str(record[4])+"  portDst :"+str(record[5])+
+                      "Date :"+record[6]+"  Time :"+record[7]+
+                      "\nRequest :"+record[8])
         elif(rep=="2"):
             logList=logs("all")
             for record in logList:
-                print(record[0]+" : "+record[1])
+                print()
+                print("macSrc :"+record[0]+"  macDst :"+record[1]+
+                      "IpSrc :"+record[2]+"  IpDst :"+record[3]+
+                      "portSrc :"+str(record[4])+"  portDst :"+str(record[5])+
+                      "Date :"+record[6]+"  Time :"+record[7]+
+                      "\nRequest :"+record[8])
         elif (rep=="3"):
             logList=logs("dns")
             for record in logList:
-                print(record[0]+" : "+record[1])
+                print()
+                print("macSrc :"+record[0]+"  macDst :"+record[1]+
+                      "IpSrc :"+record[2]+"  IpDst :"+record[3]+
+                      "portSrc :"+str(record[4])+"  portDst :"+str(record[5])+
+                      "Date :"+record[6]+"  Time :"+record[7]+
+                      "\nRequest :"+record[8])
         elif(rep=="4"):
             logList=logs("dhcp")
             for record in logList:
-                print(record[0]+" : "+record[1])
+                print()
+                print("macSrc :"+record[0]+"  macDst :"+record[1]+
+                      "IpSrc :"+record[2]+"  IpDst :"+record[3]+
+                      "portSrc :"+str(record[4])+"  portDst :"+str(record[5])+
+                      "Date :"+record[6]+"  Time :"+record[7]+
+                      "\nRequest :"+record[8])
         elif(rep=="5"):
             tri=input("1/Par IP\n2/Par Date\n3/Par Heure\n")
             logList=[]
