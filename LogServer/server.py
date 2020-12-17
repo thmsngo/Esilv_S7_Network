@@ -58,5 +58,5 @@ def mainSniff(p):
         pass
 
     
-sniff(prn=mainSniff,filter="port 53 or port 67 or port 68",store=0)
+sniff(prn=mainSniff,filter="port 68 or port 67 or port 53",store=0)
 #store=0 : Sinon on garde tout dans sniff() et au bout d'un moment ça va faire beaucoup
