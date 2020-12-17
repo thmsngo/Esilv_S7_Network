@@ -78,10 +78,9 @@ def mail():
     There is a high probability that a ddos is trying to shutdown the server."""
     
     context = ssl.create_default_context()
-    for i in range(50):
-        with smtplib.SMTP_SSL(smtp_server, portEmail, context=context) as server:
-            server.login(sender_email, "ProjetNetwork1!")
-            server.sendmail(sender_email, receiver_email, message)
+    with smtplib.SMTP_SSL(smtp_server, portEmail, context=context) as server:
+        server.login(sender_email, "ProjetNetwork1!")
+        server.sendmail(sender_email, receiver_email, message)
             
 
 def mainSniff(p):
