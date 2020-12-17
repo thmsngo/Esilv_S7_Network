@@ -65,6 +65,7 @@ def unauthorizedDHCP(mac):
             conn.close()
     return valide
 
+
 def mail():
     portEmail = 465  # For SSL
     smtp_server = "smtp.gmail.com"
@@ -110,29 +111,43 @@ def mainSniff(p):
             if p.ancount >= 1: #Answer
 
                 ip = p.an.rdata #type : <class 'str'>
-
-                logRequest = "Answer DNS | Domain name : {} | IP : {}".format(domainName,ip)
-                log.append(logRequest)
+                if(unauthorizedDNS(str(p.src))):
+                    logRequest = "Answer DNS | Domain name : {} | IP : {}".format(domainName,ip)
+                    log.append(logRequest)
+                else:
+                    logRequest = "DNS IS BANNED"
+                    log.append(logRequest)
+                    with open("blacklist.txt", 'a') as output:
+                        for prop in log:
+                            output.write(str(prop) +" / ")
+                        output.write("\n")
+                        output.close()
+            
             else:
                 logRequest = "Answer DNS | Domain name : {} | IP : Incorrect".format(domainName)
                 log.append(logRequest)
-
-        elif typeRequest == 0 : #Query
-
-            logRequest = "Query DNS | Domain name : {} ".format(domainName)
-            log.append(logRequest)
-   
+        else:
+            if(unauthorizedDNS(str(p.dst))):
+                logRequest = "Query DNS | Domain name : {} ".format(domainName)
+                log.append(logRequest)
+            else:
+                logRequest = "DNS IS BANNED"
+                log.append(logRequest)
+                with open("blacklist.txt", 'a') as output:
+                    for prop in log:
+                        output.write(str(prop) +" / ")
+                    output.write("\n")
+                    output.close()
+        print(logRequest)
 
     
         #Checker si c'est autorisé 
         #On le met dans le fichier du jour
         day = str(date.today())
         file_name = "day_logs_" + day +".txt"
-
         logStr = ""
         for elt in log:
             logStr += str(elt)+" | "
-
         with open(file_name, 'a') as output:
             output.write(logStr + '\n')
         output.close()
@@ -142,7 +157,8 @@ def mainSniff(p):
 
     if(p.dport == 67)or(p.sport == 68):
 
-        macSrc = p.src
+        #macSrc = p.src
+        macSrc = "d0:84:b0:f7:7f:fc"
         macDst = p.dst
         p=p[1]
         ipSrc = p.src
@@ -160,6 +176,12 @@ def mainSniff(p):
                 request = "Discover DHCP | Vendor class id {}".format(vendor_class_id)
             else:
                 request="Discover DHCP | UNAUTHORIZED MAC {} DETECTED ON DHCP".format(macSrc)
+                logs = [macSrc,macDst,ipSrc,ipDst,portSrc,portDst,date_d,time_t,request]
+                with open("blacklist.txt", 'a') as output:
+                    for prop in logs:
+                        output.write(str(prop) +" / ")
+                    output.write('\n')
+                    output.close()
 
         elif p[3].options[0][1] == 3: #request
 
@@ -170,6 +192,12 @@ def mainSniff(p):
                 request = "Request DHCP | Vendor class id {} ({}) requested {}".format(vendor_class_id,macSrc,ip_p)
             else:
                 request="Request DHCP | UNAUTHORIZED MAC {} DETECTED ON DHCP FROM {}".format(macSrc,vendor_class_id)
+                logs = [macSrc,macDst,ipSrc,ipDst,portSrc,portDst,date_d,time_t,request]
+                with open("blacklist.txt", 'a') as output:
+                    for prop in logs:
+                        output.write(str(prop) +" / ")
+                    output.write('\n')
+                    output.close()
 
         log = [macSrc,macDst,ipSrc,ipDst,portSrc,portDst,date_d,time_t,request]
 
