@@ -23,3 +23,71 @@ e4:70:b8:5d:be:89 | 74:da:88:05:a0:75 | 192.168.0.104 | 192.168.0.1 | 40455 | 53
 74:da:88:05:a0:75 | e4:70:b8:5d:be:89 | 192.168.0.1 | 192.168.0.104 | 53 | 40455 | 2020-12-17 | 21:14:00.101251 | Answer DNS | Domain name : github.com. | IP : Incorrect | 
 e4:70:b8:5d:be:89 | 74:da:88:05:a0:75 | 192.168.0.104 | 192.168.0.1 | 51697 | 53 | 2020-12-17 | 21:14:02.236244 | Query DNS | Domain name : u-11998.onetouch6.com.  | 
 74:da:88:05:a0:75 | e4:70:b8:5d:be:89 | 192.168.0.1 | 192.168.0.104 | 53 | 51697 | 2020-12-17 | 21:14:02.254408 | Answer DNS | Domain name : u-11998.onetouch6.com. | IP : 172.64.174.26 | 
+f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 51825 | 53 | 2020-12-17 | 21:24:30.338150 | Query DNS | Domain name : cdn.smoot.g.aaplimg.com.  | 
+f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 57264 | 53 | 2020-12-17 | 21:24:30.347222 | Query DNS | Domain name : e6858.dsce9.akamaiedge.net.  | 
+f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 50302 | 53 | 2020-12-17 | 21:24:30.352592 | Query DNS | Domain name : e6858.dsce9.akamaiedge.net.  | 
+f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 58909 | 53 | 2020-12-17 | 21:24:30.358550 | Query DNS | Domain name : e13678.dspb.akamaiedge.net.  | 
+f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 62907 | 53 | 2020-12-17 | 21:24:30.367711 | Query DNS | Domain name : e13678.dspb.akamaiedge.net.  | 
+f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 59232 | 53 | 2020-12-17 | 21:24:30.372935 | Query DNS | Domain name : api.apple-cloudkit.fe.apple-dns.net.  | 
+f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 53272 | 53 | 2020-12-17 | 21:24:30.380105 | Query DNS | Domain name : api.apple-cloudkit.fe.apple-dns.net.  | 
+f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 54949 | 53 | 2020-12-17 | 21:24:30.385482 | Query DNS | Domain name : us-sandbox-courier-e4.push-apple.com.akadns.net.  | 
+f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 62611 | 53 | 2020-12-17 | 21:24:30.391383 | Query DNS | Domain name : 1.courier-push-apple.com.akadns.net.  | 
+f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 55751 | 53 | 2020-12-17 | 21:24:30.398892 | Query DNS | Domain name : 1.courier-push-apple.com.akadns.net.  | 
+2c:39:96:31:a7:8c | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 59232 | 2020-12-17 | 21:24:30.403476 | Answer DNS | Domain name : api.apple-cloudkit.fe.apple-dns.net. | IP : Incorrect | 
+2c:39:96:31:a7:8c | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 58909 | 2020-12-17 | 21:24:30.410302 | Answer DNS | Domain name : e13678.dspb.akamaiedge.net. | IP : 2a02:26f0:500:2a1::356e | 
+2c:39:96:31:a7:8c | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 50302 | 2020-12-17 | 21:24:30.418677 | Answer DNS | Domain name : e6858.dsce9.akamaiedge.net. | IP : 23.215.180.234 | 
+2c:39:96:31:a7:8c | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 62907 | 2020-12-17 | 21:24:30.424586 | Answer DNS | Domain name : e13678.dspb.akamaiedge.net. | IP : 23.54.61.194 | 
+2c:39:96:31:a7:8c | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 51825 | 2020-12-17 | 21:24:30.432230 | Answer DNS | Domain name : cdn.smoot.g.aaplimg.com. | IP : 17.253.79.202 | 
+2c:39:96:31:a7:8c | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 57264 | 2020-12-17 | 21:24:30.436291 | Answer DNS | Domain name : e6858.dsce9.akamaiedge.net. | IP : 2a02:26f0:2b00:597::1aca | 
+f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 56180 | 53 | 2020-12-17 | 21:24:30.439958 | Query DNS | Domain name : googleads.g.doubleclick.net.  | 
+f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 55658 | 53 | 2020-12-17 | 21:24:30.445301 | Query DNS | Domain name : googleads.g.doubleclick.net.  | 
+2c:39:96:31:a7:8c | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 56180 | 2020-12-17 | 21:24:30.449522 | Answer DNS | Domain name : googleads.g.doubleclick.net. | IP : b'pagead46.l.doubleclick.net.' | 
+2c:39:96:31:a7:8c | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 55658 | 2020-12-17 | 21:24:30.453413 | Answer DNS | Domain name : googleads.g.doubleclick.net. | IP : b'pagead46.l.doubleclick.net.' | 
+2c:39:96:31:a7:8c | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 53272 | 2020-12-17 | 21:24:30.459584 | Answer DNS | Domain name : api.apple-cloudkit.fe.apple-dns.net. | IP : 17.248.144.245 | 
+2c:39:96:31:a7:8c | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 54949 | 2020-12-17 | 21:24:30.464770 | Answer DNS | Domain name : us-sandbox-courier-e4.push-apple.com.akadns.net. | IP : 17.57.146.4 | 
+2c:39:96:31:a7:8c | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 55751 | 2020-12-17 | 21:24:30.469795 | Answer DNS | Domain name : 1.courier-push-apple.com.akadns.net. | IP : b'eu-nw-courier-4.push-apple.com.akadns.net.' | 
+2c:39:96:31:a7:8c | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 62611 | 2020-12-17 | 21:24:30.474562 | Answer DNS | Domain name : 1.courier-push-apple.com.akadns.net. | IP : b'eu-nw-courier-4.push-apple.com.akadns.net.' | 
+f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 50868 | 53 | 2020-12-17 | 21:24:30.479147 | Query DNS | Domain name : cpe.us.dotomi.weighted.com.akadns.net.  | 
+f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 57294 | 53 | 2020-12-17 | 21:24:30.482844 | Query DNS | Domain name : cpe.us.dotomi.weighted.com.akadns.net.  | 
+f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 55142 | 53 | 2020-12-17 | 21:24:30.486025 | Query DNS | Domain name : pagead2.googlesyndication.com.  | 
+f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 51456 | 53 | 2020-12-17 | 21:24:30.489975 | Query DNS | Domain name : pagead2.googlesyndication.com.  | 
+f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 62934 | 53 | 2020-12-17 | 21:24:30.495210 | Query DNS | Domain name : b1t-eudc1.zemanta.com.  | 
+f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 58553 | 53 | 2020-12-17 | 21:24:30.498848 | Query DNS | Domain name : b1t-eudc1.zemanta.com.  | 
+2c:39:96:31:a7:8c | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 51456 | 2020-12-17 | 21:24:30.502914 | Answer DNS | Domain name : pagead2.googlesyndication.com. | IP : b'pagead46.l.doubleclick.net.' | 
+f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 55508 | 53 | 2020-12-17 | 21:24:30.506140 | Query DNS | Domain name : e4518.dscapi7.akamaiedge.net.  | 
+f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 64415 | 53 | 2020-12-17 | 21:24:30.511345 | Query DNS | Domain name : e4518.dscapi7.akamaiedge.net.  | 
+f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 59367 | 53 | 2020-12-17 | 21:24:30.515085 | Query DNS | Domain name : apdc2n-log-public-webservice.westeurope.cloudapp.azure.com.  | 
+2c:39:96:31:a7:8c | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 55142 | 2020-12-17 | 21:24:30.519436 | Answer DNS | Domain name : pagead2.googlesyndication.com. | IP : b'pagead46.l.doubleclick.net.' | 
+2c:39:96:31:a7:8d | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 62934 | 2020-12-17 | 21:24:30.524648 | Answer DNS | Domain name : b1t-eudc1.zemanta.com. | IP : b'b1-eudc1.zemanta.com.' | 
+2c:39:96:31:a7:8c | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 58553 | 2020-12-17 | 21:24:30.530452 | Answer DNS | Domain name : b1t-eudc1.zemanta.com. | IP : b'b1-eudc1.zemanta.com.' | 
+f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 55269 | 53 | 2020-12-17 | 21:24:30.534099 | Query DNS | Domain name : e8037.g.akamaiedge.net.  | 
+f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 58407 | 53 | 2020-12-17 | 21:24:30.537748 | Query DNS | Domain name : adservice.google.fr.  | 
+f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 53437 | 53 | 2020-12-17 | 21:24:30.544650 | Query DNS | Domain name : adservice.google.fr.  | 
+2c:39:96:31:a7:8c | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 50868 | 2020-12-17 | 21:24:30.551366 | Answer DNS | Domain name : cpe.us.dotomi.weighted.com.akadns.net. | IP : b'ams01-convex.dotomi.com.' | 
+f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 57294 | 53 | 2020-12-17 | 21:24:30.555111 | Query DNS | Domain name : ams01-convex.dotomi.com.  | 
+2c:39:96:31:a7:8c | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 53437 | 2020-12-17 | 21:24:30.561866 | Answer DNS | Domain name : adservice.google.fr. | IP : b'pagead46.l.doubleclick.net.' | 
+2c:39:96:31:a7:8c | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 64415 | 2020-12-17 | 21:24:30.565654 | Answer DNS | Domain name : e4518.dscapi7.akamaiedge.net. | IP : 23.54.60.148 | 
+2c:39:96:31:a7:8c | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 55508 | 2020-12-17 | 21:24:30.570341 | Answer DNS | Domain name : e4518.dscapi7.akamaiedge.net. | IP : 2a02:26f0:500:2a7::11a6 | 
+2c:39:96:31:a7:8c | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 58407 | 2020-12-17 | 21:24:30.574693 | Answer DNS | Domain name : adservice.google.fr. | IP : b'pagead46.l.doubleclick.net.' | 
+2c:39:96:31:a7:8c | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 57294 | 2020-12-17 | 21:24:30.579996 | Answer DNS | Domain name : ams01-convex.dotomi.com. | IP : 63.215.202.146 | 
+f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 59801 | 53 | 2020-12-17 | 21:24:30.583068 | Query DNS | Domain name : edge.gycpi.b.yahoodns.net.  | 
+2c:39:96:31:a7:8c | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 55269 | 2020-12-17 | 21:24:30.586291 | Answer DNS | Domain name : e8037.g.akamaiedge.net. | IP : 23.54.61.14 | 
+2c:39:96:31:a7:8d | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 57294 | 2020-12-17 | 21:24:30.590649 | Answer DNS | Domain name : cpe.us.dotomi.weighted.com.akadns.net. | IP : b'ams01-convex.dotomi.com.' | 
+f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 54004 | 53 | 2020-12-17 | 21:24:30.596377 | Query DNS | Domain name : e17437.dscb.akamaiedge.net.  | 
+2c:39:96:31:a7:8c | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 59801 | 2020-12-17 | 21:24:30.600784 | Answer DNS | Domain name : edge.gycpi.b.yahoodns.net. | IP : 2a00:1288:7c:800::4000 | 
+f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 62000 | 53 | 2020-12-17 | 21:24:30.604327 | Query DNS | Domain name : e17437.dscb.akamaiedge.net.  | 
+2c:39:96:31:a7:8c | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 59367 | 2020-12-17 | 21:24:30.608374 | Answer DNS | Domain name : apdc2n-log-public-webservice.westeurope.cloudapp.azure.com. | IP : 65.52.138.133 | 
+2c:39:96:31:a7:8c | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 54004 | 2020-12-17 | 21:24:30.613331 | Answer DNS | Domain name : e17437.dscb.akamaiedge.net. | IP : 2a02:26f0:500:294::441d | 
+2c:39:96:31:a7:8c | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 62000 | 2020-12-17 | 21:24:30.617068 | Answer DNS | Domain name : e17437.dscb.akamaiedge.net. | IP : 23.54.61.234 | 
+f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 61970 | 53 | 2020-12-17 | 21:24:30.964767 | Query DNS | Domain name : eu-irl-00001.s3.dualstack.eu-west-1.amazonaws.com.  | 
+f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 59987 | 53 | 2020-12-17 | 21:24:30.970048 | Query DNS | Domain name : eu-irl-00001.s3.dualstack.eu-west-1.amazonaws.com.  | 
+2c:39:96:31:a7:8c | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 59987 | 2020-12-17 | 21:24:30.975185 | Answer DNS | Domain name : eu-irl-00001.s3.dualstack.eu-west-1.amazonaws.com. | IP : b's3-a.dualstack.eu-west-1.amazonaws.com.' | 
+f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 61970 | 53 | 2020-12-17 | 21:24:30.979074 | Query DNS | Domain name : s3-a.dualstack.eu-west-1.amazonaws.com.  | 
+2c:39:96:31:a7:8c | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 61970 | 2020-12-17 | 21:24:30.984635 | Answer DNS | Domain name : eu-irl-00001.s3.dualstack.eu-west-1.amazonaws.com. | IP : b's3-a.dualstack.eu-west-1.amazonaws.com.' | 
+2c:39:96:31:a7:8d | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 61970 | 2020-12-17 | 21:24:30.988604 | Answer DNS | Domain name : s3-a.dualstack.eu-west-1.amazonaws.com. | IP : 2a05:d050:8010:8900:34da:3950:: | 
+f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 55603 | 53 | 2020-12-17 | 21:24:31.417851 | Query DNS | Domain name : 26.1.168.192.in-addr.arpa.  | 
+2c:39:96:31:a7:8c | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 55603 | 2020-12-17 | 21:24:31.422719 | Answer DNS | Domain name : 26.1.168.192.in-addr.arpa. | IP : Incorrect | 
+f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 62930 | 53 | 2020-12-17 | 21:24:32.288037 | Query DNS | Domain name : me.apple-dns.net.  | 
+f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 57547 | 53 | 2020-12-17 | 21:24:32.294153 | Query DNS | Domain name : me.apple-dns.net.  | 
+2c:39:96:31:a7:8c | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 62930 | 2020-12-17 | 21:24:32.306774 | Answer DNS | Domain name : me.apple-dns.net. | IP : 2a01:b740:a41:105::16 | 
+2c:39:96:31:a7:8c | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 57547 | 2020-12-17 | 21:24:32.313804 | Answer DNS | Domain name : me.apple-dns.net. | IP : 17.248.144.179 | 

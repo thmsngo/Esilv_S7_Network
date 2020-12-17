@@ -37,7 +37,7 @@ def unauthorizedDNS(dns):
         values=(dns,)
         cur.execute(sql,values)
         listUnauthorized=cur.fetchall()
-        if(listUnauthorized.size()>0):
+        if(len(listUnauthorized)>0):
             valide=False
     except sqlite3.Error as error:
         print("Failed to read data from sqlite table", error)
@@ -45,6 +45,25 @@ def unauthorizedDNS(dns):
         if (conn):
             conn.close()
     return valide
+
+def unauthorizedDHCP(mac):
+    valide=True
+    try:
+        conn = sqlite3.connect('logserver.db')
+        cur = conn.cursor()
+        sql="SELECT * FROM unauthorizedMac WHERE mac=?"
+        values=(mac,)
+        cur.execute(sql,values)
+        listUnauthorized=cur.fetchall()
+        if(len(listUnauthorized)>0):
+            valide=False
+    except sqlite3.Error as error:
+        print("Failed to read data from sqlite table", error)
+    finally:
+        if (conn):
+            conn.close()
+    return valide
+
 def mainSniff(p):
 
 
@@ -116,8 +135,11 @@ def mainSniff(p):
         p=p[3]
         hostname = p.options[5][1].decode()
         ip_p = p.options[2][1]
-        request = "Host {} ({}) requested {}".format(macSrc,hostname,ip_p)
-        
+        request=""
+        if unauthorizedDHCP(macSrc):
+            request = "Host {} ({}) requested {}".format(macSrc,hostname,ip_p)
+        else:
+            request="UNAUTHORIZED MAC {} DETECTED ON DHCP FROM {}".format(macSrc,hostname)
         logs = [macSrc,macDst,ipSrc,ipDst,portSrc,portDst,date_d,time_t,request]
         print(logs)
     
