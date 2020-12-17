@@ -97,3 +97,30 @@ f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 60650 | 2
 f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 57041 | 2020-12-17 | 23:05:29.641418 | Answer DNS | Domain name : www.bing.com. | IP : b'a-0001.a-afdentry.net.trafficmanager.net.' | 
 7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 63692 | 53 | 2020-12-17 | 23:06:23.896024 | Query DNS | Domain name : vortex.data.microsoft.com.  | 
 f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 63692 | 2020-12-17 | 23:06:23.908024 | Answer DNS | Domain name : vortex.data.microsoft.com. | IP : b'asimov.vortex.data.trafficmanager.net.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 50882 | 53 | 2020-12-17 | 23:11:46.751454 | Query DNS | Domain name : louvre.fr.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 50882 | 2020-12-17 | 23:11:46.817457 | Answer DNS | Domain name : louvre.fr. | IP : 89.185.38.253 | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 64232 | 53 | 2020-12-17 | 23:48:28.437547 | Query DNS | Domain name : az764295.vo.msecnd.net.  | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 58752 | 53 | 2020-12-17 | 23:48:28.467521 | Query DNS | Domain name : wpad.numericable.fr.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 64232 | 2020-12-17 | 23:48:28.505529 | Answer DNS | Domain name : az764295.vo.msecnd.net. | IP : b'cs22.wpc.v0cdn.net.' | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 58752 | 2020-12-17 | 23:48:28.539522 | Answer DNS | Domain name : wpad.numericable.fr. | IP : b'wpadnexistepas.tech.numericable.fr.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 58612 | 53 | 2020-12-17 | 23:49:20.955441 | Query DNS | Domain name : vortex.data.microsoft.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 58612 | 2020-12-17 | 23:49:20.972443 | Answer DNS | Domain name : vortex.data.microsoft.com. | IP : b'asimov.vortex.data.trafficmanager.net.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 62927 | 53 | 2020-12-17 | 23:49:22.107508 | Query DNS | Domain name : vortex.data.microsoft.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 62927 | 2020-12-17 | 23:49:22.131440 | Answer DNS | Domain name : vortex.data.microsoft.com. | IP : b'asimov.vortex.data.trafficmanager.net.' | 
+66:cb:ad:ea:37:df | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-17 | 23:51:46.478714 | Discover DHCP | Vendor class id android-dhcp-11 | 
+66:cb:ad:ea:37:df | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-17 | 23:51:46.480671 | Request DHCP | Vendor class id android-dhcp-11 (66:cb:ad:ea:37:df) requested 192.168.0.13 | 
+66:cb:ad:ea:37:df | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-17 | 23:51:47.531297 | Request DHCP | Vendor class id android-dhcp-11 (66:cb:ad:ea:37:df) requested 192.168.0.13 | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 54210 | 53 | 2020-12-17 | 23:53:17.527072 | Query DNS | Domain name : kv601.prod.do.dsp.mp.microsoft.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 54210 | 2020-12-17 | 23:53:17.547044 | Answer DNS | Domain name : kv601.prod.do.dsp.mp.microsoft.com. | IP : b'kv601.prod.dodsp.mp.microsoft.com.nsatc.net.' | 
+66:cb:ad:ea:37:df | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-17 | 23:53:19.272040 | Discover DHCP | Vendor class id android-dhcp-11 | 
+66:cb:ad:ea:37:df | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-17 | 23:53:19.292040 | Request DHCP | Vendor class id android-dhcp-11 (66:cb:ad:ea:37:df) requested 192.168.0.13 | 
+66:cb:ad:ea:37:df | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-17 | 23:53:25.713569 | Discover DHCP | Vendor class id android-dhcp-11 | 
+66:cb:ad:ea:37:df | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-17 | 23:53:25.736907 | Request DHCP | Vendor class id android-dhcp-11 (66:cb:ad:ea:37:df) requested 192.168.0.13 | 
+66:cb:ad:ea:37:df | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-17 | 23:53:26.627930 | Request DHCP | Vendor class id android-dhcp-11 (66:cb:ad:ea:37:df) requested 192.168.0.13 | 
+66:cb:ad:ea:37:df | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-17 | 23:53:28.602018 | Request DHCP | Vendor class id android-dhcp-11 (66:cb:ad:ea:37:df) requested 192.168.0.13 | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 54216 | 53 | 2020-12-17 | 23:53:41.372818 | Query DNS | Domain name : liuvre.fr.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 54216 | 2020-12-17 | 23:53:41.409821 | Answer DNS | Domain name : liuvre.fr. | IP : Incorrect | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 54217 | 53 | 2020-12-17 | 23:53:43.861427 | Query DNS | Domain name : liuvre.fr.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 54217 | 2020-12-17 | 23:53:43.905047 | Answer DNS | Domain name : liuvre.fr. | IP : Incorrect | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 54218 | 53 | 2020-12-17 | 23:53:52.077308 | Query DNS | Domain name : louvre.fr.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 54218 | 2020-12-17 | 23:53:52.115308 | Answer DNS | Domain name : louvre.fr. | IP : 89.185.38.253 | 
