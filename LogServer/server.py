@@ -14,6 +14,21 @@ Convert to string:
 str(datetime.datetime.now().time())
 '14:45:37.410333'
 '''
+def insertLog(macSrc,macDst,ipSrc,ipDst,portSrc,portDST,request):
+    try:
+        conn = sqlite3.connect('logserver.db')
+        cur = conn.cursor()
+        sql="INSERT INTO logs(macSrc,macDst,ipSrc,ipDst,portSrc,portDST,date,time,request) VALUES(?,?,?,?,?,?,?,?,?)"
+        day=date.today()
+        time=datetime.datetime.now().time()
+        values=(macSrc,macDst,ipSrc,ipDst,portSrc,portDST,str(day),str(time),request)
+        cur.execute(sql,values)
+        cur.commit()
+    except sqlite3.Error as error:
+        print("Failed to read data from sqlite table", error)
+    finally:
+        if (conn):
+            conn.close()
 
 def mainSniff(p):
 
