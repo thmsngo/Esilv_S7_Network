@@ -1,0 +1,4 @@
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 50757 | 53 | 2020-12-18 | 00:01:47.354864 | Query DNS | Domain name : vortex.data.microsoft.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 50757 | 2020-12-18 | 00:01:47.370864 | Answer DNS | Domain name : vortex.data.microsoft.com. | IP : b'asimov.vortex.data.trafficmanager.net.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 50697 | 53 | 2020-12-18 | 00:01:56.720836 | Query DNS | Domain name : ctldl.windowsupdate.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 50697 | 2020-12-18 | 00:01:56.754832 | Answer DNS | Domain name : ctldl.windowsupdate.com. | IP : b'au-bg-shim.trafficmanager.net.' | 

@@ -89,7 +89,7 @@ def mainSniff(p):
 
         if typeRequest == 1 :
 
-            if p.ancount >= 1: 
+            if p.ancount >= 1: #Answer
 
                 ip = p.an.rdata #type : <class 'str'>
 
@@ -98,7 +98,8 @@ def mainSniff(p):
             else:
                 logRequest = "Answer DNS | Domain name : {} | IP : Incorrect".format(domainName)
                 log.append(logRequest)
-        else:
+
+        elif typeRequest == 0 : #Query
 
             logRequest = "Query DNS | Domain name : {} ".format(domainName)
             log.append(logRequest)
