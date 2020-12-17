@@ -54,6 +54,15 @@ def mainSniff(p):
 
     if(p.dport == 53)or(p.sport == 53):
 
+        log = [p.src,p.dst]
+
+        p = p[1] #on passe à la couche IP
+
+        log.append(p.src,p.dst)
+
+        print(log)
+
+
         domainName = p.qd.qname #type : <class 'bytes'>
         domainName = domainName.decode() #type : <class 'str'>
 
