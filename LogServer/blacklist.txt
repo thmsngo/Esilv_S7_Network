@@ -1,0 +1,14 @@
+
+d0:ab:d5:da:a6:f1 / d0:84:b0:f7:7f:fc / 192.168.0.11 / 8.8.8.8 / 53974 / 53 / 2020-12-18 / 00:02:22.311264 / DNS IS BANNED / 
+d0:84:b0:f7:7f:fc / d0:ab:d5:da:a6:f1 / 8.8.8.8 / 192.168.0.11 / 53 / 53974 / 2020-12-18 / 00:02:22.682269 / DNS IS BANNED / 
+d0:ab:d5:da:a6:f1 / d0:84:b0:f7:7f:fc / 192.168.0.11 / 8.8.8.8 / 53975 / 53 / 2020-12-18 / 00:02:23.292264 / DNS IS BANNED / 
+d0:84:b0:f7:7f:fc / d0:ab:d5:da:a6:f1 / 8.8.8.8 / 192.168.0.11 / 53 / 53975 / 2020-12-18 / 00:02:23.432264 / DNS IS BANNED / 
+d0:ab:d5:da:a6:f1 / d0:84:b0:f7:7f:fc / 192.168.0.11 / 8.8.8.8 / 53976 / 53 / 2020-12-18 / 00:02:23.576264 / DNS IS BANNED / 
+d0:84:b0:f7:7f:fc / d0:ab:d5:da:a6:f1 / 8.8.8.8 / 192.168.0.11 / 53 / 53976 / 2020-12-18 / 00:02:23.708263 / DNS IS BANNED / 
+d0:ab:d5:da:a6:f1 / d0:84:b0:f7:7f:fc / 192.168.0.11 / 8.8.8.8 / 53883 / 53 / 2020-12-18 / 00:05:22.566282 / DNS IS BANNED / 
+d0:84:b0:f7:7f:fc / d0:ab:d5:da:a6:f1 / 8.8.8.8 / 192.168.0.11 / 53 / 53883 / 2020-12-18 / 00:05:22.888283 / DNS IS BANNED / 
+d0:ab:d5:da:a6:f1 / d0:84:b0:f7:7f:fc / 192.168.0.11 / 8.8.8.8 / 53884 / 53 / 2020-12-18 / 00:05:23.518280 / DNS IS BANNED / 
+d0:84:b0:f7:7f:fc / d0:ab:d5:da:a6:f1 / 8.8.8.8 / 192.168.0.11 / 53 / 53884 / 2020-12-18 / 00:05:23.876280 / DNS IS BANNED / 
+d0:ab:d5:da:a6:f1 / d0:84:b0:f7:7f:fc / 192.168.0.11 / 8.8.8.8 / 53885 / 53 / 2020-12-18 / 00:05:23.998282 / DNS IS BANNED / 
+d0:84:b0:f7:7f:fc / d0:ab:d5:da:a6:f1 / 8.8.8.8 / 192.168.0.11 / 53 / 53885 / 2020-12-18 / 00:05:24.165283 / DNS IS BANNED / 
+d0:84:b0:f7:7f:fc / ff:ff:ff:ff:ff:ff / 0.0.0.0 / 255.255.255.255 / 68 / 67 / 2020-12-18 / 00:06:39.339984 / UNAUTHORIZED MAC d0:84:b0:f7:7f:fc DETECTED ON DHCP FROM MSFT 5.0 / d0:84:b0:f7:7f:fc / ff:ff:ff:ff:ff:ff / 0.0.0.0 / 255.255.255.255 / 68 / 67 / 2020-12-18 / 00:06:40.828501 / UNAUTHORIZED MAC d0:84:b0:f7:7f:fc DETECTED ON DHCP FROM MSFT 5.0 / d0:84:b0:f7:7f:fc / ff:ff:ff:ff:ff:ff / 0.0.0.0 / 255.255.255.255 / 68 / 67 / 2020-12-18 / 00:06:43.850418 / UNAUTHORIZED MAC d0:84:b0:f7:7f:fc DETECTED ON DHCP FROM MSFT 5.0 / d0:84:b0:f7:7f:fc / ff:ff:ff:ff:ff:ff / 0.0.0.0 / 255.255.255.255 / 68 / 67 / 2020-12-18 / 00:06:47.761449 / UNAUTHORIZED MAC d0:84:b0:f7:7f:fc DETECTED ON DHCP FROM MSFT 5.0 / d0:84:b0:f7:7f:fc / ff:ff:ff:ff:ff:ff / 0.0.0.0 / 255.255.255.255 / 68 / 67 / 2020-12-18 / 00:06:53.674341 / UNAUTHORIZED MAC d0:84:b0:f7:7f:fc DETECTED ON DHCP FROM MSFT 5.0 / d0:84:b0:f7:7f:fc / ff:ff:ff:ff:ff:ff / 0.0.0.0 / 255.255.255.255 / 68 / 67 / 2020-12-18 / 00:06:55.398307 / UNAUTHORIZED MAC d0:84:b0:f7:7f:fc DETECTED ON DHCP FROM MSFT 5.0 / d0:84:b0:f7:7f:fc / ff:ff:ff:ff:ff:ff / 0.0.0.0 / 255.255.255.255 / 68 / 67 / 2020-12-18 / 00:06:59.341304 / UNAUTHORIZED MAC d0:84:b0:f7:7f:fc DETECTED ON DHCP FROM MSFT 5.0 / 

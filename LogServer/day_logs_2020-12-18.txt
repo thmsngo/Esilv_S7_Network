@@ -1,0 +1,150 @@
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 63697 | 53 | 2020-12-18 | 00:00:23.610465 | Query DNS | Domain name : settings-win.data.microsoft.com.  | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 63697 | 53 | 2020-12-18 | 00:00:23.614430 | Query DNS | Domain name : settings-win.data.microsoft.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 63697 | 2020-12-18 | 00:00:24.458431 | Answer DNS | Domain name : settings-win.data.microsoft.com. | IP : b'settingsfd-geo.trafficmanager.net.' | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 63697 | 2020-12-18 | 00:00:25.712958 | Answer DNS | Domain name : settings-win.data.microsoft.com. | IP : b'settingsfd-geo.trafficmanager.net.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 8.8.8.8 | 63698 | 53 | 2020-12-18 | 00:00:27.251477 | Query DNS | Domain name : 8.8.8.8.in-addr.arpa.  | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 8.8.8.8 | 63698 | 53 | 2020-12-18 | 00:00:27.386476 | Query DNS | Domain name : 8.8.8.8.in-addr.arpa.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 8.8.8.8 | 192.168.0.11 | 53 | 63698 | 2020-12-18 | 00:00:27.958475 | DNS IS BANNED | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 8.8.8.8 | 192.168.0.11 | 53 | 63698 | 2020-12-18 | 00:00:28.557476 | Answer DNS | Domain name : 8.8.8.8.in-addr.arpa. | IP : b'dns.google.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 8.8.8.8 | 63699 | 53 | 2020-12-18 | 00:00:29.444477 | Query DNS | Domain name : facebook.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 8.8.8.8 | 192.168.0.11 | 53 | 63699 | 2020-12-18 | 00:00:30.281474 | Answer DNS | Domain name : facebook.com. | IP : 157.240.21.35 | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 8.8.8.8 | 63699 | 53 | 2020-12-18 | 00:00:30.861477 | Query DNS | Domain name : facebook.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 8.8.8.8 | 192.168.0.11 | 53 | 63699 | 2020-12-18 | 00:00:31.685477 | DNS IS BANNED | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 8.8.8.8 | 63700 | 53 | 2020-12-18 | 00:00:32.212477 | Query DNS | Domain name : facebook.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 8.8.8.8 | 192.168.0.11 | 53 | 63700 | 2020-12-18 | 00:00:32.783475 | DNS IS BANNED | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.2 | 52246 | 53 | 2020-12-18 | 00:00:33.353476 | Query DNS | Domain name : elb-fra-amz.nimbus.bitdefender.net.  | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 8.8.8.8 | 63700 | 53 | 2020-12-18 | 00:00:34.592475 | Query DNS | Domain name : facebook.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.2 | 192.168.0.11 | 53 | 52246 | 2020-12-18 | 00:00:33.944475 | Answer DNS | Domain name : elb-fra-amz.nimbus.bitdefender.net. | IP : b'kube-nimbus-1314339100.eu-central-1.elb.amazonaws.com.' | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 8.8.8.8 | 192.168.0.11 | 53 | 63700 | 2020-12-18 | 00:00:35.116476 | Answer DNS | Domain name : facebook.com. | IP : 2a03:2880:f130:83:face:b00c:0:25de | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.2 | 52246 | 53 | 2020-12-18 | 00:00:36.415477 | Query DNS | Domain name : elb-fra-amz.nimbus.bitdefender.net.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.2 | 192.168.0.11 | 53 | 52246 | 2020-12-18 | 00:00:37.210475 | Answer DNS | Domain name : elb-fra-amz.nimbus.bitdefender.net. | IP : b'kube-nimbus-1314339100.eu-central-1.elb.amazonaws.com.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 8.8.8.8 | 63706 | 53 | 2020-12-18 | 00:00:56.657720 | Query DNS | Domain name : 8.8.8.8.in-addr.arpa.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 8.8.8.8 | 192.168.0.11 | 53 | 63706 | 2020-12-18 | 00:00:57.213684 | Answer DNS | Domain name : 8.8.8.8.in-addr.arpa. | IP : b'dns.google.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 8.8.8.8 | 63707 | 53 | 2020-12-18 | 00:00:57.787685 | Query DNS | Domain name : facebook.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 8.8.8.8 | 192.168.0.11 | 53 | 63707 | 2020-12-18 | 00:00:58.370685 | Answer DNS | Domain name : facebook.com. | IP : 157.240.21.35 | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 8.8.8.8 | 63708 | 53 | 2020-12-18 | 00:00:58.900685 | Query DNS | Domain name : facebook.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 8.8.8.8 | 192.168.0.11 | 53 | 63708 | 2020-12-18 | 00:00:59.648687 | Answer DNS | Domain name : facebook.com. | IP : 2a03:2880:f130:83:face:b00c:0:25de | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 8.8.8.8 | 63706 | 53 | 2020-12-18 | 00:00:56.692720 | DNS IS BANNED | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 8.8.8.8 | 192.168.0.11 | 53 | 63706 | 2020-12-18 | 00:01:01.217084 | DNS IS BANNED | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 8.8.8.8 | 63707 | 53 | 2020-12-18 | 00:01:01.798083 | DNS IS BANNED | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 8.8.8.8 | 192.168.0.11 | 53 | 63707 | 2020-12-18 | 00:01:02.316084 | DNS IS BANNED | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 8.8.8.8 | 63708 | 53 | 2020-12-18 | 00:01:02.895082 | DNS IS BANNED | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 8.8.8.8 | 192.168.0.11 | 53 | 63708 | 2020-12-18 | 00:01:03.486082 | DNS IS BANNED | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 63520 | 53 | 2020-12-18 | 00:01:07.761119 | Query DNS | Domain name : presence.teams.microsoft.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 63520 | 2020-12-18 | 00:01:08.689098 | Answer DNS | Domain name : presence.teams.microsoft.com. | IP : b'presence.services.sfb.trafficmanager.net.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 63520 | 53 | 2020-12-18 | 00:01:07.765082 | Query DNS | Domain name : presence.teams.microsoft.com.  | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 63521 | 53 | 2020-12-18 | 00:01:09.384081 | Query DNS | Domain name : push.bitdefender.net.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 63520 | 2020-12-18 | 00:01:09.792083 | Answer DNS | Domain name : presence.teams.microsoft.com. | IP : b'presence.services.sfb.trafficmanager.net.' | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 63521 | 2020-12-18 | 00:01:11.089082 | Answer DNS | Domain name : push.bitdefender.net. | IP : b'push.bitdefender.net.cdn.cloudflare.net.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 63521 | 53 | 2020-12-18 | 00:01:10.534090 | Query DNS | Domain name : push.bitdefender.net.  | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 64324 | 53 | 2020-12-18 | 00:01:11.969083 | Query DNS | Domain name : teams.microsoft.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 63521 | 2020-12-18 | 00:01:12.564085 | Answer DNS | Domain name : push.bitdefender.net. | IP : b'push.bitdefender.net.cdn.cloudflare.net.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 64324 | 53 | 2020-12-18 | 00:01:13.151083 | Query DNS | Domain name : teams.microsoft.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 64324 | 2020-12-18 | 00:01:13.913089 | Answer DNS | Domain name : teams.microsoft.com. | IP : b'teams.office.com.' | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 64324 | 2020-12-18 | 00:01:15.576085 | Answer DNS | Domain name : teams.microsoft.com. | IP : b'teams.office.com.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.2 | 63060 | 53 | 2020-12-18 | 00:01:52.054265 | Query DNS | Domain name : elb-fra-amz.nimbus.bitdefender.net.  | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.2 | 63060 | 53 | 2020-12-18 | 00:01:52.055267 | Query DNS | Domain name : elb-fra-amz.nimbus.bitdefender.net.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.2 | 192.168.0.11 | 53 | 63060 | 2020-12-18 | 00:01:52.660263 | Answer DNS | Domain name : elb-fra-amz.nimbus.bitdefender.net. | IP : b'kube-nimbus-1314339100.eu-central-1.elb.amazonaws.com.' | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.2 | 192.168.0.11 | 53 | 63060 | 2020-12-18 | 00:01:54.118263 | Answer DNS | Domain name : elb-fra-amz.nimbus.bitdefender.net. | IP : b'kube-nimbus-1314339100.eu-central-1.elb.amazonaws.com.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 53962 | 53 | 2020-12-18 | 00:01:55.798264 | Query DNS | Domain name : discord.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 53962 | 2020-12-18 | 00:01:56.318263 | Answer DNS | Domain name : discord.com. | IP : 162.159.138.232 | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 53962 | 53 | 2020-12-18 | 00:01:55.839263 | Query DNS | Domain name : discord.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 53962 | 2020-12-18 | 00:01:57.697266 | Answer DNS | Domain name : discord.com. | IP : 162.159.138.232 | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 8.8.8.8 | 53974 | 53 | 2020-12-18 | 00:02:22.311264 | Query DNS | Domain name : 8.8.8.8.in-addr.arpa.  | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 8.8.8.8 | 53974 | 53 | 2020-12-18 | 00:02:22.311264 | DNS IS BANNED | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 8.8.8.8 | 192.168.0.11 | 53 | 53974 | 2020-12-18 | 00:02:22.448300 | Answer DNS | Domain name : 8.8.8.8.in-addr.arpa. | IP : b'dns.google.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 8.8.8.8 | 53975 | 53 | 2020-12-18 | 00:02:22.561264 | Query DNS | Domain name : facebook.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 8.8.8.8 | 192.168.0.11 | 53 | 53975 | 2020-12-18 | 00:02:22.805299 | Answer DNS | Domain name : facebook.com. | IP : 157.240.21.35 | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 8.8.8.8 | 53976 | 53 | 2020-12-18 | 00:02:22.926268 | Query DNS | Domain name : facebook.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 8.8.8.8 | 192.168.0.11 | 53 | 53976 | 2020-12-18 | 00:02:23.004272 | Answer DNS | Domain name : facebook.com. | IP : 2a03:2880:f130:83:face:b00c:0:25de | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 8.8.8.8 | 192.168.0.11 | 53 | 53974 | 2020-12-18 | 00:02:22.682269 | DNS IS BANNED | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 8.8.8.8 | 53975 | 53 | 2020-12-18 | 00:02:23.292264 | DNS IS BANNED | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 8.8.8.8 | 192.168.0.11 | 53 | 53975 | 2020-12-18 | 00:02:23.432264 | DNS IS BANNED | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 8.8.8.8 | 53976 | 53 | 2020-12-18 | 00:02:23.576264 | DNS IS BANNED | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 8.8.8.8 | 192.168.0.11 | 53 | 53976 | 2020-12-18 | 00:02:23.708263 | DNS IS BANNED | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 63854 | 53 | 2020-12-18 | 00:02:34.581206 | Query DNS | Domain name : api.github.com.  | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 63854 | 53 | 2020-12-18 | 00:02:34.610168 | Query DNS | Domain name : api.github.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 63854 | 2020-12-18 | 00:02:34.660172 | Answer DNS | Domain name : api.github.com. | IP : 140.82.121.6 | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 63854 | 2020-12-18 | 00:02:34.917113 | Answer DNS | Domain name : api.github.com. | IP : 140.82.121.6 | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 51194 | 53 | 2020-12-18 | 00:02:37.001154 | Query DNS | Domain name : outlook.office365.com.  | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 51194 | 53 | 2020-12-18 | 00:02:37.040151 | Query DNS | Domain name : outlook.office365.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 51194 | 2020-12-18 | 00:02:37.183150 | Answer DNS | Domain name : outlook.office365.com. | IP : b'outlook.ha.office365.com.' | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 51194 | 2020-12-18 | 00:02:37.661150 | Answer DNS | Domain name : outlook.office365.com. | IP : b'outlook.ha.office365.com.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 55169 | 53 | 2020-12-18 | 00:02:43.566579 | Query DNS | Domain name : watson.telemetry.microsoft.com.  | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 55169 | 53 | 2020-12-18 | 00:02:43.573581 | Query DNS | Domain name : watson.telemetry.microsoft.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 55169 | 2020-12-18 | 00:02:44.060575 | Answer DNS | Domain name : watson.telemetry.microsoft.com. | IP : b'blobcollector.events.data.trafficmanager.net.' | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 55169 | 2020-12-18 | 00:02:44.484579 | Answer DNS | Domain name : watson.telemetry.microsoft.com. | IP : b'blobcollector.events.data.trafficmanager.net.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 62226 | 53 | 2020-12-18 | 00:03:12.179260 | Query DNS | Domain name : dns.google.  | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 62226 | 53 | 2020-12-18 | 00:03:12.179260 | Query DNS | Domain name : dns.google.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 62226 | 2020-12-18 | 00:03:12.337261 | Answer DNS | Domain name : dns.google. | IP : 8.8.8.8 | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 62226 | 2020-12-18 | 00:03:12.662295 | Answer DNS | Domain name : dns.google. | IP : 8.8.8.8 | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 50968 | 53 | 2020-12-18 | 00:03:16.056261 | Query DNS | Domain name : discord.com.  | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 50968 | 53 | 2020-12-18 | 00:03:16.056261 | Query DNS | Domain name : discord.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 50968 | 2020-12-18 | 00:03:16.410263 | Answer DNS | Domain name : discord.com. | IP : 162.159.138.232 | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 50968 | 2020-12-18 | 00:03:16.339262 | Answer DNS | Domain name : discord.com. | IP : 162.159.138.232 | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 54282 | 53 | 2020-12-18 | 00:03:58.890224 | Query DNS | Domain name : download.sqlitebrowser.org.  | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 65113 | 53 | 2020-12-18 | 00:03:59.101834 | Query DNS | Domain name : s-ring.msedge.net.  | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 54282 | 53 | 2020-12-18 | 00:03:58.913846 | Query DNS | Domain name : download.sqlitebrowser.org.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 65113 | 2020-12-18 | 00:03:59.199473 | Answer DNS | Domain name : s-ring.msedge.net. | IP : b's-ring.s-9999.s-msedge.net.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 65113 | 53 | 2020-12-18 | 00:03:59.379474 | Query DNS | Domain name : s-ring.msedge.net.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 54282 | 2020-12-18 | 00:03:59.572472 | Answer DNS | Domain name : download.sqlitebrowser.org. | IP : 104.248.139.103 | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 57100 | 53 | 2020-12-18 | 00:03:59.651472 | Query DNS | Domain name : spo-ring.msedge.net.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 65113 | 2020-12-18 | 00:04:00.015472 | Answer DNS | Domain name : s-ring.msedge.net. | IP : b's-ring.s-9999.s-msedge.net.' | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 57100 | 2020-12-18 | 00:03:59.807476 | Answer DNS | Domain name : spo-ring.msedge.net. | IP : b'spo-ring.spo-9999.spo-msedge.net.' | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 54282 | 2020-12-18 | 00:04:00.142471 | Answer DNS | Domain name : download.sqlitebrowser.org. | IP : 104.248.139.103 | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 50926 | 53 | 2020-12-18 | 00:04:00.279472 | Query DNS | Domain name : teams-ring.msedge.net.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 50926 | 2020-12-18 | 00:04:00.421471 | Answer DNS | Domain name : teams-ring.msedge.net. | IP : b'teams-ring.teams-9999.teams-msedge.net.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 57100 | 53 | 2020-12-18 | 00:04:00.586473 | Query DNS | Domain name : spo-ring.msedge.net.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 57100 | 2020-12-18 | 00:04:00.718473 | Answer DNS | Domain name : spo-ring.msedge.net. | IP : b'spo-ring.spo-9999.spo-msedge.net.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 50926 | 53 | 2020-12-18 | 00:04:00.877472 | Query DNS | Domain name : teams-ring.msedge.net.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 50926 | 2020-12-18 | 00:04:01.179472 | Answer DNS | Domain name : teams-ring.msedge.net. | IP : b'teams-ring.teams-9999.teams-msedge.net.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 61290 | 53 | 2020-12-18 | 00:04:06.504471 | Query DNS | Domain name : elb-fra-amz.nimbus.bitdefender.net.  | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 61290 | 53 | 2020-12-18 | 00:04:06.505473 | Query DNS | Domain name : elb-fra-amz.nimbus.bitdefender.net.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 61290 | 2020-12-18 | 00:04:07.355472 | Answer DNS | Domain name : elb-fra-amz.nimbus.bitdefender.net. | IP : b'kube-nimbus-1314339100.eu-central-1.elb.amazonaws.com.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 53452 | 53 | 2020-12-18 | 00:04:08.362471 | Query DNS | Domain name : presence.teams.microsoft.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 53452 | 2020-12-18 | 00:04:09.130472 | Answer DNS | Domain name : presence.teams.microsoft.com. | IP : b'presence.services.sfb.trafficmanager.net.' | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 61290 | 2020-12-18 | 00:04:09.621471 | Answer DNS | Domain name : elb-fra-amz.nimbus.bitdefender.net. | IP : b'kube-nimbus-1314339100.eu-central-1.elb.amazonaws.com.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 53452 | 53 | 2020-12-18 | 00:04:10.315473 | Query DNS | Domain name : presence.teams.microsoft.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 53452 | 2020-12-18 | 00:04:10.943476 | Answer DNS | Domain name : presence.teams.microsoft.com. | IP : b'presence.services.sfb.trafficmanager.net.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 53881 | 53 | 2020-12-18 | 00:05:12.840274 | Query DNS | Domain name : cdn.discordapp.com.  | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 53881 | 53 | 2020-12-18 | 00:05:12.840274 | Query DNS | Domain name : cdn.discordapp.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 53881 | 2020-12-18 | 00:05:13.044234 | Answer DNS | Domain name : cdn.discordapp.com. | IP : 162.159.134.233 | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 53881 | 2020-12-18 | 00:05:13.318191 | Answer DNS | Domain name : cdn.discordapp.com. | IP : 162.159.134.233 | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 8.8.8.8 | 53883 | 53 | 2020-12-18 | 00:05:22.559281 | Query DNS | Domain name : 8.8.8.8.in-addr.arpa.  | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 8.8.8.8 | 53883 | 53 | 2020-12-18 | 00:05:22.566282 | DNS IS BANNED | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 8.8.8.8 | 192.168.0.11 | 53 | 53883 | 2020-12-18 | 00:05:22.686284 | Answer DNS | Domain name : 8.8.8.8.in-addr.arpa. | IP : b'dns.google.' | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 8.8.8.8 | 53884 | 53 | 2020-12-18 | 00:05:22.807281 | Query DNS | Domain name : facebook.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 8.8.8.8 | 192.168.0.11 | 53 | 53884 | 2020-12-18 | 00:05:22.997282 | Answer DNS | Domain name : facebook.com. | IP : 157.240.21.35 | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 8.8.8.8 | 192.168.0.11 | 53 | 53883 | 2020-12-18 | 00:05:22.888283 | DNS IS BANNED | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 8.8.8.8 | 53885 | 53 | 2020-12-18 | 00:05:23.172284 | Query DNS | Domain name : facebook.com.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 8.8.8.8 | 192.168.0.11 | 53 | 53885 | 2020-12-18 | 00:05:23.353321 | Answer DNS | Domain name : facebook.com. | IP : 2a03:2880:f130:83:face:b00c:0:25de | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 8.8.8.8 | 53884 | 53 | 2020-12-18 | 00:05:23.518280 | DNS IS BANNED | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 8.8.8.8 | 192.168.0.11 | 53 | 53884 | 2020-12-18 | 00:05:23.876280 | DNS IS BANNED | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 8.8.8.8 | 53885 | 53 | 2020-12-18 | 00:05:23.998282 | DNS IS BANNED | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 8.8.8.8 | 192.168.0.11 | 53 | 53885 | 2020-12-18 | 00:05:24.165283 | DNS IS BANNED | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 61285 | 53 | 2020-12-18 | 00:05:28.329282 | Query DNS | Domain name : elb-fra-amz.nimbus.bitdefender.net.  | 
+d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 61285 | 53 | 2020-12-18 | 00:05:28.340278 | Query DNS | Domain name : elb-fra-amz.nimbus.bitdefender.net.  | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 61285 | 2020-12-18 | 00:05:28.464279 | Answer DNS | Domain name : elb-fra-amz.nimbus.bitdefender.net. | IP : b'kube-nimbus-1314339100.eu-central-1.elb.amazonaws.com.' | 
+d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 61285 | 2020-12-18 | 00:05:28.812316 | Answer DNS | Domain name : elb-fra-amz.nimbus.bitdefender.net. | IP : b'kube-nimbus-1314339100.eu-central-1.elb.amazonaws.com.' | 
+d0:ab:d5:da:a6:f1 | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 00:05:59.486121 | Host d0:ab:d5:da:a6:f1 (MSFT 5.0) requested 192.168.0.11 | 
+d0:ab:d5:da:a6:f1 | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 00:06:01.883155 | Host d0:ab:d5:da:a6:f1 (MSFT 5.0) requested 192.168.0.11 | 
+d0:ab:d5:da:a6:f1 | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 00:06:04.901144 | Host d0:ab:d5:da:a6:f1 (MSFT 5.0) requested 192.168.0.11 | 
+d0:ab:d5:da:a6:f1 | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 00:06:10.745914 | Host d0:ab:d5:da:a6:f1 (MSFT 5.0) requested 192.168.0.11 | 
+d0:ab:d5:da:a6:f1 | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 00:06:12.723915 | Host d0:ab:d5:da:a6:f1 (MSFT 5.0) requested 192.168.0.11 | 
+d0:ab:d5:da:a6:f1 | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 00:06:16.714915 | Host d0:ab:d5:da:a6:f1 (MSFT 5.0) requested 192.168.0.11 | 
+d0:ab:d5:da:a6:f1 | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 00:06:25.347467 | Host d0:ab:d5:da:a6:f1 (MSFT 5.0) requested 192.168.0.11 | 
+d0:ab:d5:da:a6:f1 | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 00:06:27.258466 | Host d0:ab:d5:da:a6:f1 (MSFT 5.0) requested 192.168.0.11 | 
+d0:ab:d5:da:a6:f1 | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 00:06:39.334985 | Host d0:ab:d5:da:a6:f1 (MSFT 5.0) requested 192.168.0.11 | 
+d0:84:b0:f7:7f:fc | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 00:06:39.339984 | UNAUTHORIZED MAC d0:84:b0:f7:7f:fc DETECTED ON DHCP FROM MSFT 5.0 | 
+d0:ab:d5:da:a6:f1 | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 00:06:40.817499 | Host d0:ab:d5:da:a6:f1 (MSFT 5.0) requested 192.168.0.11 | 
+d0:84:b0:f7:7f:fc | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 00:06:40.828501 | UNAUTHORIZED MAC d0:84:b0:f7:7f:fc DETECTED ON DHCP FROM MSFT 5.0 | 
+d0:ab:d5:da:a6:f1 | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 00:06:43.840417 | Host d0:ab:d5:da:a6:f1 (MSFT 5.0) requested 192.168.0.11 | 
+d0:84:b0:f7:7f:fc | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 00:06:43.850418 | UNAUTHORIZED MAC d0:84:b0:f7:7f:fc DETECTED ON DHCP FROM MSFT 5.0 | 
+d0:84:b0:f7:7f:fc | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 00:06:47.761449 | UNAUTHORIZED MAC d0:84:b0:f7:7f:fc DETECTED ON DHCP FROM MSFT 5.0 | 
+d0:ab:d5:da:a6:f1 | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 00:06:47.794453 | Host d0:ab:d5:da:a6:f1 (MSFT 5.0) requested 192.168.0.11 | 
+d0:ab:d5:da:a6:f1 | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 00:06:53.657341 | Host d0:ab:d5:da:a6:f1 (MSFT 5.0) requested 192.168.0.11 | 
+d0:84:b0:f7:7f:fc | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 00:06:53.674341 | UNAUTHORIZED MAC d0:84:b0:f7:7f:fc DETECTED ON DHCP FROM MSFT 5.0 | 
+d0:ab:d5:da:a6:f1 | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 00:06:55.382307 | Host d0:ab:d5:da:a6:f1 (MSFT 5.0) requested 192.168.0.11 | 
+d0:84:b0:f7:7f:fc | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 00:06:55.398307 | UNAUTHORIZED MAC d0:84:b0:f7:7f:fc DETECTED ON DHCP FROM MSFT 5.0 | 
+d0:84:b0:f7:7f:fc | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 00:06:59.341304 | UNAUTHORIZED MAC d0:84:b0:f7:7f:fc DETECTED ON DHCP FROM MSFT 5.0 | 
+d0:ab:d5:da:a6:f1 | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 00:06:59.376337 | Host d0:ab:d5:da:a6:f1 (MSFT 5.0) requested 192.168.0.11 | 
