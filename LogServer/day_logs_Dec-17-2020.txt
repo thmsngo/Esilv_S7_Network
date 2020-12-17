@@ -16,3 +16,53 @@ Query DNS | Domain name : dns.google.
 Answer DNS | Domain name : dns.google. | IP : 8.8.4.4
 Query DNS | Domain name : api.github.com. 
 Answer DNS | Domain name : api.github.com. | IP : 140.82.121.6
+Query DNS | Domain name : louvre.fr. 
+Answer DNS | Domain name : louvre.fr. | IP : 89.185.38.253
+Query DNS | Domain name : louvre.fr. 
+Answer DNS | Domain name : louvre.fr. | IP : 89.185.38.253
+Query DNS | Domain name : discord.com. 
+Answer DNS | Domain name : discord.com. | IP : 162.159.137.232
+Query DNS | Domain name : vortex.data.microsoft.com. 
+Answer DNS | Domain name : vortex.data.microsoft.com. | IP : b'asimov.vortex.data.trafficmanager.net.'
+Query DNS | Domain name : vortex.data.microsoft.com. 
+Answer DNS | Domain name : vortex.data.microsoft.com. | IP : b'asimov.vortex.data.trafficmanager.net.'
+Query DNS | Domain name : api.github.com. 
+Query DNS | Domain name : wpad.numericable.fr. 
+Answer DNS | Domain name : api.github.com. | IP : 140.82.121.5
+Answer DNS | Domain name : wpad.numericable.fr. | IP : b'wpadnexistepas.tech.numericable.fr.'
+Query DNS | Domain name : settings-win.data.microsoft.com. 
+Answer DNS | Domain name : settings-win.data.microsoft.com. | IP : b'settingsfd-geo.trafficmanager.net.'
+Query DNS | Domain name : vortex.data.microsoft.com. 
+Answer DNS | Domain name : vortex.data.microsoft.com. | IP : b'asimov.vortex.data.trafficmanager.net.'
+Query DNS | Domain name : ecs.office.com. 
+Answer DNS | Domain name : ecs.office.com. | IP : b'ecs.office.trafficmanager.net.'
+Query DNS | Domain name : discord.com. 
+Answer DNS | Domain name : discord.com. | IP : 162.159.138.232
+Query DNS | Domain name : discord.com. 
+Answer DNS | Domain name : discord.com. | IP : 162.159.135.232
+Query DNS | Domain name : vortex.data.microsoft.com. 
+Answer DNS | Domain name : vortex.data.microsoft.com. | IP : b'asimov.vortex.data.trafficmanager.net.'
+Query DNS | Domain name : eu-central7189.discord.media. 
+Answer DNS | Domain name : eu-central7189.discord.media. | IP : 162.159.138.234
+Query DNS | Domain name : www.bing.com. 
+Answer DNS | Domain name : www.bing.com. | IP : b'a-0001.a-afdentry.net.trafficmanager.net.'
+Query DNS | Domain name : vortex.data.microsoft.com. 
+Answer DNS | Domain name : vortex.data.microsoft.com. | IP : b'asimov.vortex.data.trafficmanager.net.'
+Query DNS | Domain name : wpad.numericable.fr. 
+Answer DNS | Domain name : wpad.numericable.fr. | IP : b'wpadnexistepas.tech.numericable.fr.'
+Query DNS | Domain name : api.github.com. 
+Query DNS | Domain name : wpad.numericable.fr. 
+Query DNS | Domain name : api.github.com. 
+Answer DNS | Domain name : api.github.com. | IP : 140.82.121.5
+Answer DNS | Domain name : wpad.numericable.fr. | IP : b'wpadnexistepas.tech.numericable.fr.'
+Answer DNS | Domain name : api.github.com. | IP : 140.82.121.5
+Query DNS | Domain name : vortex.data.microsoft.com. 
+Answer DNS | Domain name : vortex.data.microsoft.com. | IP : b'asimov.vortex.data.trafficmanager.net.'
+Query DNS | Domain name : vortex.data.microsoft.com. 
+Answer DNS | Domain name : vortex.data.microsoft.com. | IP : b'asimov.vortex.data.trafficmanager.net.'
+Query DNS | Domain name : tile-service.weather.microsoft.com. 
+Answer DNS | Domain name : tile-service.weather.microsoft.com. | IP : b'wildcard.weather.microsoft.com.edgekey.net.'
+Query DNS | Domain name : louvre.fr. 
+Answer DNS | Domain name : louvre.fr. | IP : 89.185.38.253
+Query DNS | Domain name : vortex.data.microsoft.com. 
+Answer DNS | Domain name : vortex.data.microsoft.com. | IP : b'asimov.vortex.data.trafficmanager.net.'

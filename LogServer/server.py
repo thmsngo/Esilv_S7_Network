@@ -58,10 +58,13 @@ def mainSniff(p):
 
         p = p[1] #on passe à la couche IP
 
-        log.append(p.src,p.dst)
-
+        log.append(p.src)
+        log.append(p.dst)
+        log.append(p.sport)
+        log.append(p.dport)
+        log.append(str(date.today()))
+        log.append(str(datetime.today().time()))
         print(log)
-
 
         domainName = p.qd.qname #type : <class 'bytes'>
         domainName = domainName.decode() #type : <class 'str'>
@@ -75,15 +78,20 @@ def mainSniff(p):
                 ip = p.an.rdata #type : <class 'str'>
 
                 logRequest = "Answer DNS | Domain name : {} | IP : {}".format(domainName,ip)
+                log.append(logRequest)
 
             else:
                 logRequest = "Answer DNS | Domain name : {} | IP : Incorrect".format(domainName)
+                log.append(logRequest)
+
 
         else:
 
             logRequest = "Query DNS | Domain name : {} ".format(domainName)
+            log.append(logRequest)
 
-        print(logRequest)
+
+        print(log)
 
         #Checker si c'est autorisé 
         #On le met dans le fichier du jour
