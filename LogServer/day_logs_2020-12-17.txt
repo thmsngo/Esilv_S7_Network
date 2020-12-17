@@ -91,3 +91,9 @@ f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 62930 | 53 | 20
 f0:79:60:2a:f1:4c | 2c:39:96:31:a7:8c | 192.168.1.26 | 8.8.8.8 | 57547 | 53 | 2020-12-17 | 21:24:32.294153 | Query DNS | Domain name : me.apple-dns.net.  | 
 2c:39:96:31:a7:8c | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 62930 | 2020-12-17 | 21:24:32.306774 | Answer DNS | Domain name : me.apple-dns.net. | IP : 2a01:b740:a41:105::16 | 
 2c:39:96:31:a7:8c | f0:79:60:2a:f1:4c | 8.8.8.8 | 192.168.1.26 | 53 | 57547 | 2020-12-17 | 21:24:32.313804 | Answer DNS | Domain name : me.apple-dns.net. | IP : 17.248.144.179 | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 60650 | 53 | 2020-12-17 | 23:05:23.293355 | Query DNS | Domain name : vortex.data.microsoft.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 60650 | 2020-12-17 | 23:05:23.345355 | Answer DNS | Domain name : vortex.data.microsoft.com. | IP : b'asimov.vortex.data.trafficmanager.net.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 57041 | 53 | 2020-12-17 | 23:05:29.617424 | Query DNS | Domain name : www.bing.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 57041 | 2020-12-17 | 23:05:29.641418 | Answer DNS | Domain name : www.bing.com. | IP : b'a-0001.a-afdentry.net.trafficmanager.net.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 63692 | 53 | 2020-12-17 | 23:06:23.896024 | Query DNS | Domain name : vortex.data.microsoft.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 63692 | 2020-12-17 | 23:06:23.908024 | Answer DNS | Domain name : vortex.data.microsoft.com. | IP : b'asimov.vortex.data.trafficmanager.net.' | 
