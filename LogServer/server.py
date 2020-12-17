@@ -21,7 +21,7 @@ def insertLog(log):
         sql="INSERT INTO logs(macSrc,macDst,ipSrc,ipDst,portSrc,portDST,date,time,request) VALUES(?,?,?,?,?,?,?,?,?)"
         values=(log[0],log[1],log[2],log[3],log[4],log[5],log[6],log[7],log[8])
         cur.execute(sql,values)
-        cur.commit()
+        conn.commit()
     except sqlite3.Error as error:
         print("Failed to read data from sqlite table", error)
     finally:
@@ -52,7 +52,9 @@ def mainSniff(p):
 
     if(p.dport == 53)or(p.sport == 53):
 
-        log = [p.src,p.dst]
+        log = []
+        log.append(p.src)
+        log.append(p.dst)
 
         p = p[1] #on passe à la couche IP
 
@@ -96,13 +98,14 @@ def mainSniff(p):
         file_name = "day_logs_" + day +".txt"
 
         logStr = ""
-
         for elt in log:
             logStr += str(elt)+" | "
 
         with open(file_name, 'a') as output:
             output.write(logStr + '\n')
         output.close()
+
+        insertLog(log)
         #On l'enregistre dans la database
 
     if(p.dport == 67)or(p.sport == 67):
