@@ -1,0 +1,9 @@
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 60844 | 53 | 2020-12-17 | 19:34:20.036381 | Query DNS | Domain name : louvre.fr.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 60844 | 2020-12-17 | 19:34:20.114371 | Answer DNS | Domain name : louvre.fr. | IP : 89.185.38.253 | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 60846 | 53 | 2020-12-17 | 19:34:54.398169 | Query DNS | Domain name : louvre.fr.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 60846 | 2020-12-17 | 19:34:54.435168 | Answer DNS | Domain name : louvre.fr. | IP : 89.185.38.253 | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 52063 | 53 | 2020-12-17 | 19:37:56.591501 | Query DNS | Domain name : louvre.fr.  | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 50806 | 53 | 2020-12-17 | 19:38:55.093382 | Query DNS | Domain name : louvre.fr.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 50806 | 2020-12-17 | 19:38:55.126373 | Answer DNS | Domain name : louvre.fr. | IP : 89.185.38.253 | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 51135 | 53 | 2020-12-17 | 19:38:58.563919 | Query DNS | Domain name : vortex.data.microsoft.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 51135 | 2020-12-17 | 19:38:58.610921 | Answer DNS | Domain name : vortex.data.microsoft.com. | IP : b'asimov.vortex.data.trafficmanager.net.' | 

@@ -14,16 +14,14 @@ Convert to string:
 str(datetime.datetime.now().time())
 '14:45:37.410333'
 '''
-def insertLog(macSrc,macDst,ipSrc,ipDst,portSrc,portDST,request):
+def insertLog(log):
     try:
         conn = sqlite3.connect('logserver.db')
         cur = conn.cursor()
         sql="INSERT INTO logs(macSrc,macDst,ipSrc,ipDst,portSrc,portDST,date,time,request) VALUES(?,?,?,?,?,?,?,?,?)"
-        day=date.today()
-        time=datetime.datetime.now().time()
-        values=(macSrc,macDst,ipSrc,ipDst,portSrc,portDST,str(day),str(time),request)
+        values=(log[0],log[1],log[2],log[3],log[4],log[5],log[6],log[7],log[8])
         cur.execute(sql,values)
-        cur.commit()
+        conn.commit()
     except sqlite3.Error as error:
         print("Failed to read data from sqlite table", error)
     finally:
@@ -51,7 +49,10 @@ def mainSniff(p):
 
 
     if(p.dport == 53)or(p.sport == 53):
-        log = [p.src,p.dst]
+
+        log = []
+        log.append(p.src)
+        log.append(p.dst)
 
         p = p[1] #on passe à la couche IP
 
@@ -61,7 +62,6 @@ def mainSniff(p):
         log.append(p.dport)
         log.append(str(date.today()))
         log.append(str(datetime.today().time()))
-        print(log)
 
         domainName = p.qd.qname #type : <class 'bytes'>
         domainName = domainName.decode() #type : <class 'str'>
@@ -88,11 +88,18 @@ def mainSniff(p):
         print(log)
         #Checker si c'est autorisé 
         #On le met dans le fichier du jour
-        day = date.today().strftime("%b-%d-%Y")
+        day = str(date.today())
         file_name = "day_logs_" + day +".txt"
+
+        logStr = ""
+        for elt in log:
+            logStr += str(elt)+" | "
+
         with open(file_name, 'a') as output:
-            output.write(logRequest + '\n')
+            output.write(logStr + '\n')
         output.close()
+
+        insertLog(log)
         #On l'enregistre dans la database
 
     if(p.dport == 67)or(p.sport == 68):
