@@ -66,3 +66,43 @@ Query DNS | Domain name : louvre.fr.
 Answer DNS | Domain name : louvre.fr. | IP : 89.185.38.253
 Query DNS | Domain name : vortex.data.microsoft.com. 
 Answer DNS | Domain name : vortex.data.microsoft.com. | IP : b'asimov.vortex.data.trafficmanager.net.'
+Query DNS | Domain name : global.vortex.data.trafficmanager.net. 
+Answer DNS | Domain name : global.vortex.data.trafficmanager.net. | IP : Incorrect
+Query DNS | Domain name : global.vortex.data.trafficmanager.net. 
+Answer DNS | Domain name : global.vortex.data.trafficmanager.net. | IP : Incorrect
+Query DNS | Domain name : locprod2-elb-us-west-2.prod.mozaws.net. 
+Answer DNS | Domain name : locprod2-elb-us-west-2.prod.mozaws.net. | IP : Incorrect
+Query DNS | Domain name : locprod2-elb-us-west-2.prod.mozaws.net. 
+Answer DNS | Domain name : locprod2-elb-us-west-2.prod.mozaws.net. | IP : Incorrect
+Query DNS | Domain name : global.vortex.data.trafficmanager.net. 
+Answer DNS | Domain name : global.vortex.data.trafficmanager.net. | IP : Incorrect
+Query DNS | Domain name : global.vortex.data.trafficmanager.net. 
+Answer DNS | Domain name : global.vortex.data.trafficmanager.net. | IP : Incorrect
+Query DNS | Domain name : locprod2-elb-us-west-2.prod.mozaws.net. 
+Answer DNS | Domain name : locprod2-elb-us-west-2.prod.mozaws.net. | IP : Incorrect
+Query DNS | Domain name : discord.com. 
+Answer DNS | Domain name : discord.com. | IP : 162.159.128.233
+Query DNS | Domain name : asimov.vortex.data.trafficmanager.net. 
+Answer DNS | Domain name : asimov.vortex.data.trafficmanager.net. | IP : b'global.vortex.data.trafficmanager.net.'
+Query DNS | Domain name : global.vortex.data.trafficmanager.net. 
+Answer DNS | Domain name : global.vortex.data.trafficmanager.net. | IP : Incorrect
+Query DNS | Domain name : locprod2-elb-us-west-2.prod.mozaws.net. 
+Answer DNS | Domain name : locprod2-elb-us-west-2.prod.mozaws.net. | IP : Incorrect
+Query DNS | Domain name : asimov.vortex.data.trafficmanager.net. 
+Answer DNS | Domain name : asimov.vortex.data.trafficmanager.net. | IP : b'global.vortex.data.trafficmanager.net.'
+Query DNS | Domain name : global.vortex.data.trafficmanager.net. 
+Answer DNS | Domain name : global.vortex.data.trafficmanager.net. | IP : Incorrect
+Query DNS | Domain name : locprod2-elb-us-west-2.prod.mozaws.net. 
+Query DNS | Domain name : locprod2-elb-us-west-2.prod.mozaws.net. 
+Answer DNS | Domain name : locprod2-elb-us-west-2.prod.mozaws.net. | IP : 52.42.151.74
+Answer DNS | Domain name : locprod2-elb-us-west-2.prod.mozaws.net. | IP : Incorrect
+Query DNS | Domain name : locprod2-elb-us-west-2.prod.mozaws.net. 
+Answer DNS | Domain name : locprod2-elb-us-west-2.prod.mozaws.net. | IP : Incorrect
+Query DNS | Domain name : asimov.vortex.data.trafficmanager.net. 
+Query DNS | Domain name : asimov.vortex.data.trafficmanager.net. 
+Answer DNS | Domain name : asimov.vortex.data.trafficmanager.net. | IP : 40.77.226.250
+Answer DNS | Domain name : asimov.vortex.data.trafficmanager.net. | IP : b'global.vortex.data.trafficmanager.net.'
+Query DNS | Domain name : global.vortex.data.trafficmanager.net. 
+Answer DNS | Domain name : global.vortex.data.trafficmanager.net. | IP : Incorrect
+Query DNS | Domain name : global.vortex.data.trafficmanager.net. 
+Answer DNS | Domain name : global.vortex.data.trafficmanager.net. | IP : Incorrect

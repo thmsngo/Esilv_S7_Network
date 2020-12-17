@@ -29,26 +29,6 @@ def insertLog(macSrc,macDst,ipSrc,ipDst,portSrc,portDST,request):
     finally:
         if (conn):
             conn.close()
-
-# Fixup function to extract dhcp_options by key
-def get_option(dhcp_options, key):
-
-    must_decode = ['hostname', 'domain', 'vendor_class_id']
-    try:
-        for i in dhcp_options:
-            if i[0] == key:
-                # If DHCP Server Returned multiple name servers 
-                # return all as comma seperated string.
-                if key == 'name_server' and len(i) > 2:
-                    return ",".join(i[1:])
-                # domain and hostname are binary strings,
-                # decode to unicode string before returning
-                elif key in must_decode:
-                    return i[1].decode()
-                else: 
-                    return i[1]        
-    except:
-        pass
             
 def unauthorizedDNS(dns):
     valide=True
@@ -116,26 +96,23 @@ def mainSniff(p):
         #On l'enregistre dans la database
 
     if(p.dport == 67)or(p.sport == 68):
-        """
-        c.execute('''CREATE TABLE logs
-        (macSrc TEXT, macDst TEXT,
-        ipSrc TEXT, ipDst TEXT, 
-        portSrc INT, portDST INT, 
-        date TEXT, time TEXT, 
-        request TEXT)''')
-        """ 
-        macSrc = p.dst
-        macDst = p.src
+
+        macSrc = p.src
+        macDst = p.dst
         p=p[1]
         ipSrc = p.src
         ipDst = p.dst
         portSrc = p.sport
-        portDST = p.dport
-        date = 
-        time = 
-        requested_addr = get_option(packet[DHCP].options, 'requested_addr')
-        hostname = get_option(packet[DHCP].options, 'hostname')
-        request = f"Host {hostname} ({packet[Ether].src}) requested {requested_addr}"
+        portDst = p.dport
+        date_d = str(date.today())
+        time_t = str(datetime.today().time())
+        p=p[3]
+        hostname = p.options[5][1].decode()
+        ip_p = p.options[2][1]
+        request = "Host {} ({}) requested {}".format(macSrc,hostname,ip_p)
+        
+        logs = [macSrc,macDst,ipSrc,ipDst,portSrc,portDst,date_d,date_d,request]
+        print(logs)
     
 sniff(prn=mainSniff,filter="port 68 or port 67 or port 53",store=0)
 #store=0 : Sinon on garde tout dans sniff() et au bout d'un moment ça va faire beaucoup
