@@ -29,6 +29,26 @@ def insertLog(macSrc,macDst,ipSrc,ipDst,portSrc,portDST,request):
     finally:
         if (conn):
             conn.close()
+
+# Fixup function to extract dhcp_options by key
+def get_option(dhcp_options, key):
+
+    must_decode = ['hostname', 'domain', 'vendor_class_id']
+    try:
+        for i in dhcp_options:
+            if i[0] == key:
+                # If DHCP Server Returned multiple name servers 
+                # return all as comma seperated string.
+                if key == 'name_server' and len(i) > 2:
+                    return ",".join(i[1:])
+                # domain and hostname are binary strings,
+                # decode to unicode string before returning
+                elif key in must_decode:
+                    return i[1].decode()
+                else: 
+                    return i[1]        
+    except:
+        pass
             
 def unauthorizedDNS(dns):
     valide=True
@@ -47,13 +67,10 @@ def unauthorizedDNS(dns):
         if (conn):
             conn.close()
     return valide
-    
-
 def mainSniff(p):
 
 
     if(p.dport == 53)or(p.sport == 53):
-
         log = [p.src,p.dst]
 
         p = p[1] #on passe à la couche IP
@@ -79,20 +96,16 @@ def mainSniff(p):
 
                 logRequest = "Answer DNS | Domain name : {} | IP : {}".format(domainName,ip)
                 log.append(logRequest)
-
             else:
                 logRequest = "Answer DNS | Domain name : {} | IP : Incorrect".format(domainName)
                 log.append(logRequest)
-
-
         else:
 
             logRequest = "Query DNS | Domain name : {} ".format(domainName)
             log.append(logRequest)
-
+        print(logRequest)
 
         print(log)
-
         #Checker si c'est autorisé 
         #On le met dans le fichier du jour
         day = date.today().strftime("%b-%d-%Y")
@@ -102,12 +115,27 @@ def mainSniff(p):
         output.close()
         #On l'enregistre dans la database
 
-    if(p.dport == 67)or(p.sport == 67):
-        pass
-
-    if(p.dport == 68)or(p.sport == 68):
-        pass
-
+    if(p.dport == 67)or(p.sport == 68):
+        """
+        c.execute('''CREATE TABLE logs
+        (macSrc TEXT, macDst TEXT,
+        ipSrc TEXT, ipDst TEXT, 
+        portSrc INT, portDST INT, 
+        date TEXT, time TEXT, 
+        request TEXT)''')
+        """ 
+        macSrc = p.dst
+        macDst = p.src
+        p=p[1]
+        ipSrc = p.src
+        ipDst = p.dst
+        portSrc = p.sport
+        portDST = p.dport
+        date = 
+        time = 
+        requested_addr = get_option(packet[DHCP].options, 'requested_addr')
+        hostname = get_option(packet[DHCP].options, 'hostname')
+        request = f"Host {hostname} ({packet[Ether].src}) requested {requested_addr}"
     
 sniff(prn=mainSniff,filter="port 68 or port 67 or port 53",store=0)
 #store=0 : Sinon on garde tout dans sniff() et au bout d'un moment ça va faire beaucoup
