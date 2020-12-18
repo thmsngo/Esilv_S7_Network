@@ -411,3 +411,16 @@ f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 57161 | 2
 66:cb:ad:ea:37:df | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 16:02:51.113974 | Request DHCP | Vendor class id android-dhcp-11 (66:cb:ad:ea:37:df) requested 192.168.0.13 | 
 66:cb:ad:ea:37:df | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 16:02:53.106902 | Request DHCP | Vendor class id android-dhcp-11 (66:cb:ad:ea:37:df) requested 192.168.0.13 | 
 02:18:54:77:40:3e | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 16:03:15.076736 | Request DHCP | Vendor class id Null (02:18:54:77:40:3e) requested 1500 | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 59128 | 53 | 2020-12-18 | 16:16:34.434132 | Query DNS | Domain name : ctldl.windowsupdate.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 59128 | 2020-12-18 | 16:16:34.463126 | Answer DNS | Domain name : ctldl.windowsupdate.com. | IP : b'au-bg-shim.trafficmanager.net.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 8.8.8.8 | 59129 | 53 | 2020-12-18 | 16:16:44.080654 | Query DNS | Domain name : louvre.fr.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 8.8.8.8 | 192.168.0.10 | 53 | 59129 | 2020-12-18 | 16:16:44.199654 | Answer DNS | Domain name : louvre.fr. | IP : 89.185.38.253 | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 8.8.4.4 | 59131 | 53 | 2020-12-18 | 16:16:50.917135 | DNS IS BANNED | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 8.8.4.4 | 192.168.0.10 | 53 | 59131 | 2020-12-18 | 16:16:50.979136 | DNS IS BANNED | 
+66:cb:ad:ea:37:df | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 16:19:27.598552 | Discover DHCP | Vendor class id android-dhcp-11 | 
+66:cb:ad:ea:37:df | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 16:19:27.615552 | Request DHCP | Vendor class id android-dhcp-11 (66:cb:ad:ea:37:df) requested 192.168.0.13 | 
+02:18:54:77:40:3e | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 16:19:37.959336 | Request DHCP | UNAUTHORIZED MAC 02:18:54:77:40:3e DETECTED ON DHCP FROM Null | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 55745 | 53 | 2020-12-18 | 16:19:39.178661 | Query DNS | Domain name : tsfe.trafficshaping.dsp.mp.microsoft.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 55745 | 2020-12-18 | 16:19:39.206658 | Answer DNS | Domain name : tsfe.trafficshaping.dsp.mp.microsoft.com. | IP : b'tsfe.trafficmanager.net.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 50360 | 53 | 2020-12-18 | 16:20:00.980375 | Query DNS | Domain name : vortex.data.microsoft.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 50360 | 2020-12-18 | 16:20:01.021388 | Answer DNS | Domain name : vortex.data.microsoft.com. | IP : b'asimov.vortex.data.trafficmanager.net.' | 
