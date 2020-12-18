@@ -210,3 +210,41 @@ d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 64163 | 53 | 2
 d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 64163 | 2020-12-18 | 00:31:04.224643 | Answer DNS | Domain name : api.github.com. | IP : 140.82.121.6 | 
 d0:ab:d5:da:a6:f1 | d0:84:b0:f7:7f:fc | 192.168.0.11 | 89.2.0.1 | 55133 | 53 | 2020-12-18 | 00:31:07.776642 | Query DNS | Domain name : presence.teams.microsoft.com.  | 
 d0:84:b0:f7:7f:fc | d0:ab:d5:da:a6:f1 | 89.2.0.1 | 192.168.0.11 | 53 | 55133 | 2020-12-18 | 00:31:08.487640 | Answer DNS | Domain name : presence.teams.microsoft.com. | IP : b'presence.services.sfb.trafficmanager.net.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 55388 | 53 | 2020-12-18 | 10:13:56.371747 | Query DNS | Domain name : wdcp.microsoft.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 55388 | 2020-12-18 | 10:13:56.401590 | Answer DNS | Domain name : wdcp.microsoft.com. | IP : b'wd-prod-cp.trafficmanager.net.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 55389 | 53 | 2020-12-18 | 10:13:59.516976 | Query DNS | Domain name : louvre.fr.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 55389 | 2020-12-18 | 10:13:59.589663 | Answer DNS | Domain name : louvre.fr. | IP : 89.185.38.253 | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 55390 | 53 | 2020-12-18 | 10:14:02.789532 | Query DNS | Domain name : louvre.fr.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 55390 | 2020-12-18 | 10:14:02.829489 | Answer DNS | Domain name : louvre.fr. | IP : 89.185.38.253 | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 63317 | 53 | 2020-12-18 | 10:14:51.856686 | Query DNS | Domain name : api.github.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 63317 | 2020-12-18 | 10:14:51.900902 | Answer DNS | Domain name : api.github.com. | IP : 140.82.121.6 | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 57023 | 53 | 2020-12-18 | 10:15:05.092153 | Query DNS | Domain name : dc.services.visualstudio.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 57023 | 2020-12-18 | 10:15:05.116106 | Answer DNS | Domain name : dc.services.visualstudio.com. | IP : b'dc.applicationinsights.microsoft.com.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 63164 | 53 | 2020-12-18 | 10:15:15.328811 | Query DNS | Domain name : vortex.data.microsoft.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 63164 | 2020-12-18 | 10:15:15.390378 | Answer DNS | Domain name : vortex.data.microsoft.com. | IP : b'asimov.vortex.data.trafficmanager.net.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 8.8.8.8 | 63165 | 53 | 2020-12-18 | 10:15:23.536254 | DNS IS BANNED | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 8.8.8.8 | 192.168.0.10 | 53 | 63165 | 2020-12-18 | 10:15:23.583586 | DNS IS BANNED | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 8.8.8.8 | 63166 | 53 | 2020-12-18 | 10:15:30.041114 | DNS IS BANNED | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 8.8.8.8 | 192.168.0.10 | 53 | 63166 | 2020-12-18 | 10:15:30.086942 | DNS IS BANNED | 
+4e:d6:50:42:b8:8f | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 09:21:48.466878 | Request DHCP | Vendor class id HUAWEI_P40_Pro-7565e429e7 (4e:d6:50:42:b8:8f) requested 192.168.0.103 | 
+4e:d6:50:42:b8:8f | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 09:22:01.058510 | Request DHCP | Vendor class id HUAWEI_P40_Pro-7565e429e7 (4e:d6:50:42:b8:8f) requested 192.168.0.103 | 
+e4:70:b8:5d:be:89 | 74:da:88:05:a0:75 | 192.168.0.104 | 192.168.0.1 | 49606 | 53 | 2020-12-18 | 09:22:25.577989 | Query DNS | Domain name : facebook.com.  | 
+74:da:88:05:a0:75 | e4:70:b8:5d:be:89 | 192.168.0.1 | 192.168.0.104 | 53 | 49606 | 2020-12-18 | 09:22:25.599217 | Answer DNS | Domain name : facebook.com. | IP : 179.60.192.36 | 
+e4:70:b8:5d:be:89 | 74:da:88:05:a0:75 | 192.168.0.104 | 192.168.0.1 | 46938 | 53 | 2020-12-18 | 09:22:26.924354 | Query DNS | Domain name : asimov.vortex.data.trafficmanager.net.  | 
+e4:70:b8:5d:be:89 | 74:da:88:05:a0:75 | 192.168.0.104 | 192.168.0.1 | 59023 | 53 | 2020-12-18 | 09:22:26.939082 | Query DNS | Domain name : asimov.vortex.data.trafficmanager.net.  | 
+74:da:88:05:a0:75 | e4:70:b8:5d:be:89 | 192.168.0.1 | 192.168.0.104 | 53 | 46938 | 2020-12-18 | 09:22:26.949307 | Answer DNS | Domain name : asimov.vortex.data.trafficmanager.net. | IP : 40.77.226.250 | 
+74:da:88:05:a0:75 | e4:70:b8:5d:be:89 | 192.168.0.1 | 192.168.0.104 | 53 | 59023 | 2020-12-18 | 09:22:26.955660 | Answer DNS | Domain name : asimov.vortex.data.trafficmanager.net. | IP : b'global.vortex.data.trafficmanager.net.' | 
+e4:70:b8:5d:be:89 | 74:da:88:05:a0:75 | 192.168.0.104 | 192.168.0.1 | 42979 | 53 | 2020-12-18 | 09:22:26.961010 | Query DNS | Domain name : global.vortex.data.trafficmanager.net.  | 
+74:da:88:05:a0:75 | e4:70:b8:5d:be:89 | 192.168.0.1 | 192.168.0.104 | 53 | 42979 | 2020-12-18 | 09:22:26.967020 | Answer DNS | Domain name : global.vortex.data.trafficmanager.net. | IP : Incorrect | 
+e4:70:b8:5d:be:89 | 74:da:88:05:a0:75 | 192.168.0.104 | 192.168.0.1 | 36312 | 53 | 2020-12-18 | 09:22:26.978276 | Query DNS | Domain name : global.vortex.data.trafficmanager.net.  | 
+74:da:88:05:a0:75 | e4:70:b8:5d:be:89 | 192.168.0.1 | 192.168.0.104 | 53 | 36312 | 2020-12-18 | 09:22:26.985186 | Answer DNS | Domain name : global.vortex.data.trafficmanager.net. | IP : Incorrect | 
+e4:70:b8:5d:be:89 | 74:da:88:05:a0:75 | 192.168.0.104 | 8.8.8.8 | 32927 | 53 | 2020-12-18 | 09:27:27.537447 | DNS IS BANNED | 
+74:da:88:05:a0:75 | e4:70:b8:5d:be:89 | 8.8.8.8 | 192.168.0.104 | 53 | 32927 | 2020-12-18 | 09:27:27.563204 | DNS IS BANNED | 
+e4:70:b8:5d:be:89 | 74:da:88:05:a0:75 | 192.168.0.104 | 192.168.0.1 | 37823 | 53 | 2020-12-18 | 09:27:28.796718 | Query DNS | Domain name : asimov.vortex.data.trafficmanager.net.  | 
+e4:70:b8:5d:be:89 | 74:da:88:05:a0:75 | 192.168.0.104 | 192.168.0.1 | 35130 | 53 | 2020-12-18 | 09:27:28.804511 | Query DNS | Domain name : asimov.vortex.data.trafficmanager.net.  | 
+74:da:88:05:a0:75 | e4:70:b8:5d:be:89 | 192.168.0.1 | 192.168.0.104 | 53 | 35130 | 2020-12-18 | 09:27:28.811985 | Answer DNS | Domain name : asimov.vortex.data.trafficmanager.net. | IP : b'global.vortex.data.trafficmanager.net.' | 
+74:da:88:05:a0:75 | e4:70:b8:5d:be:89 | 192.168.0.1 | 192.168.0.104 | 53 | 37823 | 2020-12-18 | 09:27:28.818662 | Answer DNS | Domain name : asimov.vortex.data.trafficmanager.net. | IP : 40.77.226.250 | 
+e4:70:b8:5d:be:89 | 74:da:88:05:a0:75 | 192.168.0.104 | 192.168.0.1 | 34475 | 53 | 2020-12-18 | 09:27:28.825612 | Query DNS | Domain name : global.vortex.data.trafficmanager.net.  | 
+74:da:88:05:a0:75 | e4:70:b8:5d:be:89 | 192.168.0.1 | 192.168.0.104 | 53 | 34475 | 2020-12-18 | 09:27:28.830378 | Answer DNS | Domain name : global.vortex.data.trafficmanager.net. | IP : Incorrect | 
+e4:70:b8:5d:be:89 | 74:da:88:05:a0:75 | 192.168.0.104 | 192.168.0.1 | 42782 | 53 | 2020-12-18 | 09:27:28.836419 | Query DNS | Domain name : global.vortex.data.trafficmanager.net.  | 
+74:da:88:05:a0:75 | e4:70:b8:5d:be:89 | 192.168.0.1 | 192.168.0.104 | 53 | 42782 | 2020-12-18 | 09:27:28.841793 | Answer DNS | Domain name : global.vortex.data.trafficmanager.net. | IP : Incorrect | 
