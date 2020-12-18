@@ -106,31 +106,27 @@ def mainSniff(p):
 
         typeRequest = p.qr
 
-        if typeRequest == 1 : #Answer
+        if typeRequest == 1 :
 
-            if(unauthorizedDNS(str(p.src))):
+            if p.ancount >= 1: #Answer
 
-                if p.ancount >= 1: #Si la réponse possède une une IP de réponse correcte
-
-                    ip = p.an.rdata #type : <class 'str'>
+                ip = p.an.rdata #type : <class 'str'>
+                if(unauthorizedDNS(str(p.src))):
                     logRequest = "Answer DNS | Domain name : {} | IP : {}".format(domainName,ip)
                     log.append(logRequest)
                 else:
-                    logRequest = "Answer DNS | Domain name : {} | IP : Incorrect".format(domainName)
+                    logRequest = "DNS IS BANNED"
                     log.append(logRequest)
-
+                    with open("blacklist.txt", 'a') as output:
+                        for prop in log:
+                            output.write(str(prop) +" / ")
+                        output.write("\n")
+                        output.close()
+            
             else:
-                logRequest = "DNS IS BANNED"
+                logRequest = "Answer DNS | Domain name : {} | IP : Incorrect".format(domainName)
                 log.append(logRequest)
-                with open("blacklist.txt", 'a') as output:
-                    for prop in log:
-                        output.write(str(prop) +" / ")
-                    output.write("\n")
-                    output.close()
-             
-
-        elif typeRequest == 0 : #Query
-
+        else:
             if(unauthorizedDNS(str(p.dst))):
                 logRequest = "Query DNS | Domain name : {} ".format(domainName)
                 log.append(logRequest)
@@ -142,7 +138,11 @@ def mainSniff(p):
                         output.write(str(prop) +" / ")
                     output.write("\n")
                     output.close()
+        print(logRequest)
 
+    
+        #Checker si c'est autorisé 
+        #On le met dans le fichier du jour
         day = str(date.today())
         file_name = "day_logs_" + day +".txt"
         logStr = ""
@@ -157,7 +157,8 @@ def mainSniff(p):
 
     if(p.dport == 67)or(p.sport == 68):
 
-        macSrc = p.src
+        #macSrc = p.src
+        macSrc = "d0:84:b0:f7:7f:fc"
         macDst = p.dst
         p=p[1]
         ipSrc = p.src
@@ -207,6 +208,7 @@ def mainSniff(p):
         for elt in log:
             logStr += str(elt)+" | "
 
+        
         with open(file_name, 'a') as output:
             output.write(logStr + '\n')
         output.close()
