@@ -157,8 +157,7 @@ def mainSniff(p):
 
     if(p.dport == 67)or(p.sport == 68):
 
-        #macSrc = p.src
-        macSrc = "d0:84:b0:f7:7f:fc"
+        macSrc = p.src
         macDst = p.dst
         p=p[1]
         ipSrc = p.src
@@ -208,7 +207,6 @@ def mainSniff(p):
         for elt in log:
             logStr += str(elt)+" | "
 
-        
         with open(file_name, 'a') as output:
             output.write(logStr + '\n')
         output.close()
