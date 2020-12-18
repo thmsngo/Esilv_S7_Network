@@ -29,7 +29,7 @@ c.execute('''CREATE TABLE unauthorizedDns
 (ip TEXT)''')
 
 c.execute('''INSERT INTO unauthorizedMac
-VALUES('8.8.8.1')''')
+VALUES('8.8.4.4')''')
 
 conn.commit()
 
