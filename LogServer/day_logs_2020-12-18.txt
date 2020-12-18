@@ -248,3 +248,166 @@ e4:70:b8:5d:be:89 | 74:da:88:05:a0:75 | 192.168.0.104 | 192.168.0.1 | 34475 | 53
 74:da:88:05:a0:75 | e4:70:b8:5d:be:89 | 192.168.0.1 | 192.168.0.104 | 53 | 34475 | 2020-12-18 | 09:27:28.830378 | Answer DNS | Domain name : global.vortex.data.trafficmanager.net. | IP : Incorrect | 
 e4:70:b8:5d:be:89 | 74:da:88:05:a0:75 | 192.168.0.104 | 192.168.0.1 | 42782 | 53 | 2020-12-18 | 09:27:28.836419 | Query DNS | Domain name : global.vortex.data.trafficmanager.net.  | 
 74:da:88:05:a0:75 | e4:70:b8:5d:be:89 | 192.168.0.1 | 192.168.0.104 | 53 | 42782 | 2020-12-18 | 09:27:28.841793 | Answer DNS | Domain name : global.vortex.data.trafficmanager.net. | IP : Incorrect | 
+7c:67:a2:19:ec:e0 | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 15:33:51.243976 | Discover DHCP | Vendor class id MSFT 5.0 | 
+7c:67:a2:19:ec:e0 | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 15:33:54.353983 | Request DHCP | Vendor class id MSFT 5.0 (7c:67:a2:19:ec:e0) requested 192.168.0.10 | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 60098 | 53 | 2020-12-18 | 15:33:55.151824 | Query DNS | Domain name : detectportal.firefox.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 60098 | 2020-12-18 | 15:33:55.203987 | Answer DNS | Domain name : detectportal.firefox.com. | IP : b'detectportal.prod.mozaws.net.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 59652 | 53 | 2020-12-18 | 15:33:55.236995 | Query DNS | Domain name : prod.detectportal.prod.cloudops.mozgcp.net.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 59652 | 2020-12-18 | 15:33:55.265991 | Answer DNS | Domain name : prod.detectportal.prod.cloudops.mozgcp.net. | IP : 34.107.221.82 | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 54322 | 53 | 2020-12-18 | 15:33:55.291986 | Query DNS | Domain name : prod.detectportal.prod.cloudops.mozgcp.net.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 54322 | 2020-12-18 | 15:33:55.318983 | Answer DNS | Domain name : prod.detectportal.prod.cloudops.mozgcp.net. | IP : 2600:1901:0:38d7:: | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.2 | 61264 | 53 | 2020-12-18 | 15:33:55.537002 | Query DNS | Domain name : wpad.numericable.fr.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.2 | 192.168.0.10 | 53 | 61264 | 2020-12-18 | 15:33:55.576440 | Answer DNS | Domain name : wpad.numericable.fr. | IP : b'wpadnexistepas.tech.numericable.fr.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.2 | 54445 | 53 | 2020-12-18 | 15:33:55.721613 | Query DNS | Domain name : ipv4only.arpa.  | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.2 | 56167 | 53 | 2020-12-18 | 15:33:55.748943 | Query DNS | Domain name : example.org.  | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 51015 | 53 | 2020-12-18 | 15:33:55.790900 | Query DNS | Domain name : www.google.com.  | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 62089 | 53 | 2020-12-18 | 15:33:55.831952 | Query DNS | Domain name : google.com.  | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 62349 | 53 | 2020-12-18 | 15:33:55.983905 | Query DNS | Domain name : forcesafesearch.google.com.  | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 60704 | 53 | 2020-12-18 | 15:33:56.026900 | Query DNS | Domain name : www.youtube.com.  | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 51239 | 53 | 2020-12-18 | 15:33:56.049903 | Query DNS | Domain name : m.youtube.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.2 | 192.168.0.10 | 53 | 54445 | 2020-12-18 | 15:33:56.071900 | Answer DNS | Domain name : ipv4only.arpa. | IP : 192.0.0.170 | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.2 | 192.168.0.10 | 53 | 56167 | 2020-12-18 | 15:33:56.100902 | Answer DNS | Domain name : example.org. | IP : 93.184.216.34 | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 49807 | 53 | 2020-12-18 | 15:33:56.122900 | Query DNS | Domain name : youtubei.googleapis.com.  | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 64053 | 53 | 2020-12-18 | 15:33:56.161901 | Query DNS | Domain name : youtube.googleapis.com.  | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 60243 | 53 | 2020-12-18 | 15:33:56.186903 | Query DNS | Domain name : www.youtube-nocookie.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 51015 | 2020-12-18 | 15:33:56.216901 | Answer DNS | Domain name : www.google.com. | IP : 172.217.19.228 | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 62089 | 2020-12-18 | 15:33:56.254973 | Answer DNS | Domain name : google.com. | IP : 142.250.74.238 | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 60819 | 53 | 2020-12-18 | 15:33:56.458428 | Query DNS | Domain name : restrict.youtube.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 62349 | 2020-12-18 | 15:33:56.513161 | Answer DNS | Domain name : forcesafesearch.google.com. | IP : 216.239.38.120 | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 51239 | 2020-12-18 | 15:33:56.550449 | Answer DNS | Domain name : m.youtube.com. | IP : 172.217.18.206 | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 60704 | 2020-12-18 | 15:33:56.603448 | Answer DNS | Domain name : www.youtube.com. | IP : b'youtube-ui.l.google.com.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 52108 | 53 | 2020-12-18 | 15:33:56.635448 | Query DNS | Domain name : restrictmoderate.youtube.com.  | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 54735 | 53 | 2020-12-18 | 15:33:56.673450 | Query DNS | Domain name : sitereview.zscaler.com.  | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 51857 | 53 | 2020-12-18 | 15:33:56.707450 | Query DNS | Domain name : use-application-dns.net.  | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 61458 | 53 | 2020-12-18 | 15:33:56.741449 | Query DNS | Domain name : youtube-ui.l.google.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 49807 | 2020-12-18 | 15:33:56.778472 | Answer DNS | Domain name : youtubei.googleapis.com. | IP : 216.58.206.234 | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 64053 | 2020-12-18 | 15:33:56.852448 | Answer DNS | Domain name : youtube.googleapis.com. | IP : 216.58.198.202 | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 60243 | 2020-12-18 | 15:33:56.916454 | Answer DNS | Domain name : www.youtube-nocookie.com. | IP : b'youtube-ui.l.google.com.' | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 54735 | 2020-12-18 | 15:33:56.944454 | Answer DNS | Domain name : sitereview.zscaler.com. | IP : 199.168.148.86 | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 60819 | 2020-12-18 | 15:33:56.972446 | Answer DNS | Domain name : restrict.youtube.com. | IP : 216.239.38.120 | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 52108 | 2020-12-18 | 15:33:57.004443 | Answer DNS | Domain name : restrictmoderate.youtube.com. | IP : 216.239.38.119 | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 61458 | 2020-12-18 | 15:33:57.035476 | Answer DNS | Domain name : youtube-ui.l.google.com. | IP : 216.58.214.78 | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 51857 | 2020-12-18 | 15:33:57.067449 | Answer DNS | Domain name : use-application-dns.net. | IP : 63.245.208.212 | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 49345 | 53 | 2020-12-18 | 15:33:57.106448 | Query DNS | Domain name : www.msftconnecttest.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 49345 | 2020-12-18 | 15:33:57.143521 | Answer DNS | Domain name : www.msftconnecttest.com. | IP : b'v4ncsi.msedge.net.' | 
+7c:67:a2:19:ec:e0 | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 15:33:57.187448 | Request DHCP | Vendor class id MSFT 5.0 (7c:67:a2:19:ec:e0) requested 192.168.0.10 | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 63297 | 53 | 2020-12-18 | 15:33:57.249449 | Query DNS | Domain name : mozilla.cloudflare-dns.com.  | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 54990 | 53 | 2020-12-18 | 15:33:57.289450 | Query DNS | Domain name : skydrive.wns.windows.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 63297 | 2020-12-18 | 15:33:57.321467 | Answer DNS | Domain name : mozilla.cloudflare-dns.com. | IP : 104.16.249.249 | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 54990 | 2020-12-18 | 15:33:57.352448 | Answer DNS | Domain name : skydrive.wns.windows.com. | IP : b'client.wns.windows.com.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 60215 | 53 | 2020-12-18 | 15:33:57.377510 | Query DNS | Domain name : devinci-my.sharepoint.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 60215 | 2020-12-18 | 15:33:57.423450 | Answer DNS | Domain name : devinci-my.sharepoint.com. | IP : b'devinci.sharepoint.com.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 60731 | 53 | 2020-12-18 | 15:33:57.546813 | Query DNS | Domain name : _ldap._tcp.dc._msdcs.numericable.fr.  | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 50860 | 53 | 2020-12-18 | 15:33:57.571780 | Query DNS | Domain name : wpad.numericable.fr.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 60731 | 2020-12-18 | 15:33:57.594803 | Answer DNS | Domain name : _ldap._tcp.dc._msdcs.numericable.fr. | IP : b'nc-ass-vip.sdv.fr.' | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 50860 | 2020-12-18 | 15:33:57.651780 | Answer DNS | Domain name : wpad.numericable.fr. | IP : b'wpadnexistepas.tech.numericable.fr.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 65144 | 53 | 2020-12-18 | 15:33:57.735780 | Query DNS | Domain name : _ldap._tcp.dc._msdcs.numericable.fr.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 65144 | 2020-12-18 | 15:33:57.777860 | Answer DNS | Domain name : _ldap._tcp.dc._msdcs.numericable.fr. | IP : b'nc-ass-vip.sdv.fr.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 65260 | 53 | 2020-12-18 | 15:33:58.247509 | Query DNS | Domain name : wpad.numericable.fr.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 65260 | 2020-12-18 | 15:33:58.283303 | Answer DNS | Domain name : wpad.numericable.fr. | IP : b'wpadnexistepas.tech.numericable.fr.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 51832 | 53 | 2020-12-18 | 15:33:59.811888 | Query DNS | Domain name : wpad.numericable.fr.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 51832 | 2020-12-18 | 15:33:59.889188 | Answer DNS | Domain name : wpad.numericable.fr. | IP : b'wpadnexistepas.tech.numericable.fr.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 52419 | 53 | 2020-12-18 | 15:33:59.929193 | Query DNS | Domain name : wpad.numericable.fr.  | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 60491 | 53 | 2020-12-18 | 15:33:59.964186 | Query DNS | Domain name : client.wns.windows.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 52419 | 2020-12-18 | 15:33:59.991227 | Answer DNS | Domain name : wpad.numericable.fr. | IP : b'wpadnexistepas.tech.numericable.fr.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 65531 | 53 | 2020-12-18 | 15:34:00.034189 | Query DNS | Domain name : wpad.numericable.fr.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 60491 | 2020-12-18 | 15:34:00.088187 | Answer DNS | Domain name : client.wns.windows.com. | IP : b'wns.notify.windows.com.akadns.net.' | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 65531 | 2020-12-18 | 15:34:00.124189 | Answer DNS | Domain name : wpad.numericable.fr. | IP : b'wpadnexistepas.tech.numericable.fr.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 54483 | 53 | 2020-12-18 | 15:34:00.157186 | Query DNS | Domain name : licensing.mp.microsoft.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 54483 | 2020-12-18 | 15:34:00.188190 | Answer DNS | Domain name : licensing.mp.microsoft.com. | IP : b'licensing.md.mp.microsoft.com.akadns.net.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 62892 | 53 | 2020-12-18 | 15:34:01.836118 | Query DNS | Domain name : vortex.data.microsoft.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 62892 | 2020-12-18 | 15:34:01.862045 | Answer DNS | Domain name : vortex.data.microsoft.com. | IP : b'asimov.vortex.data.trafficmanager.net.' | 
+7c:67:a2:19:ec:e0 | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 15:34:07.076597 | Discover DHCP | Vendor class id MSFT 5.0 | 
+7c:67:a2:19:ec:e0 | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 15:34:11.034880 | Discover DHCP | Vendor class id MSFT 5.0 | 
+7c:67:a2:19:ec:e0 | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 15:34:11.078697 | Request DHCP | Vendor class id    DESKTOP-8UGDQ4M (7c:67:a2:19:ec:e0) requested 192.168.0.10 | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 58049 | 53 | 2020-12-18 | 15:34:12.193642 | Query DNS | Domain name : push.services.mozilla.com.  | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 51280 | 53 | 2020-12-18 | 15:34:12.251240 | Query DNS | Domain name : wpad.numericable.fr.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 51280 | 2020-12-18 | 15:34:12.282214 | Answer DNS | Domain name : wpad.numericable.fr. | IP : b'wpadnexistepas.tech.numericable.fr.' | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 58049 | 2020-12-18 | 15:34:12.330218 | Answer DNS | Domain name : push.services.mozilla.com. | IP : b'autopush.prod.mozaws.net.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 52828 | 53 | 2020-12-18 | 15:34:12.369212 | Query DNS | Domain name : autopush.prod.mozaws.net.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 52828 | 2020-12-18 | 15:34:12.410213 | Answer DNS | Domain name : autopush.prod.mozaws.net. | IP : 34.214.1.68 | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 61584 | 53 | 2020-12-18 | 15:34:12.441214 | Query DNS | Domain name : push.services.mozilla.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 61584 | 2020-12-18 | 15:34:12.471212 | Answer DNS | Domain name : push.services.mozilla.com. | IP : b'autopush.prod.mozaws.net.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 54030 | 53 | 2020-12-18 | 15:34:12.499250 | Query DNS | Domain name : autopush.prod.mozaws.net.  | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 49684 | 53 | 2020-12-18 | 15:34:12.526213 | Query DNS | Domain name : _ldap._tcp.dc._msdcs.numericable.fr.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 54030 | 2020-12-18 | 15:34:12.558208 | Answer DNS | Domain name : autopush.prod.mozaws.net. | IP : Incorrect | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 49684 | 2020-12-18 | 15:34:12.587211 | Answer DNS | Domain name : _ldap._tcp.dc._msdcs.numericable.fr. | IP : b'nc-ass-vip.sdv.fr.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 56505 | 53 | 2020-12-18 | 15:34:12.610209 | Query DNS | Domain name : _ldap._tcp.dc._msdcs.numericable.fr.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 56505 | 2020-12-18 | 15:34:12.642214 | Answer DNS | Domain name : _ldap._tcp.dc._msdcs.numericable.fr. | IP : b'nc-ass-vip.sdv.fr.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 57168 | 53 | 2020-12-18 | 15:34:12.729210 | Query DNS | Domain name : www.msftconnecttest.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 57168 | 2020-12-18 | 15:34:12.745209 | Answer DNS | Domain name : www.msftconnecttest.com. | IP : b'v4ncsi.msedge.net.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 56889 | 53 | 2020-12-18 | 15:34:12.893201 | Query DNS | Domain name : skydrive.wns.windows.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 56889 | 2020-12-18 | 15:34:12.926204 | Answer DNS | Domain name : skydrive.wns.windows.com. | IP : b'client.wns.windows.com.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 59439 | 53 | 2020-12-18 | 15:34:13.160581 | Query DNS | Domain name : devinci-my.sharepoint.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 59439 | 2020-12-18 | 15:34:13.203470 | Answer DNS | Domain name : devinci-my.sharepoint.com. | IP : b'devinci.sharepoint.com.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 59727 | 53 | 2020-12-18 | 15:34:13.357764 | Query DNS | Domain name : example.org.  | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 60358 | 53 | 2020-12-18 | 15:34:13.387663 | Query DNS | Domain name : ipv4only.arpa.  | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 57394 | 53 | 2020-12-18 | 15:34:13.419663 | Query DNS | Domain name : detectportal.firefox.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 59727 | 2020-12-18 | 15:34:13.457665 | Answer DNS | Domain name : example.org. | IP : 93.184.216.34 | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 60358 | 2020-12-18 | 15:34:13.484663 | Answer DNS | Domain name : ipv4only.arpa. | IP : 192.0.0.171 | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 57394 | 2020-12-18 | 15:34:13.516665 | Answer DNS | Domain name : detectportal.firefox.com. | IP : b'detectportal.prod.mozaws.net.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 56476 | 53 | 2020-12-18 | 15:34:13.539664 | Query DNS | Domain name : prod.detectportal.prod.cloudops.mozgcp.net.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 56476 | 2020-12-18 | 15:34:13.572667 | Answer DNS | Domain name : prod.detectportal.prod.cloudops.mozgcp.net. | IP : 34.107.221.82 | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 57999 | 53 | 2020-12-18 | 15:34:13.594660 | Query DNS | Domain name : prod.detectportal.prod.cloudops.mozgcp.net.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 57999 | 2020-12-18 | 15:34:13.624664 | Answer DNS | Domain name : prod.detectportal.prod.cloudops.mozgcp.net. | IP : 2600:1901:0:38d7:: | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 53602 | 53 | 2020-12-18 | 15:34:13.977843 | Query DNS | Domain name : client.wns.windows.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 53602 | 2020-12-18 | 15:34:14.007535 | Answer DNS | Domain name : client.wns.windows.com. | IP : b'wns.notify.windows.com.akadns.net.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 58244 | 53 | 2020-12-18 | 15:34:14.337456 | Query DNS | Domain name : www.youtube.com.  | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 60355 | 53 | 2020-12-18 | 15:34:14.368235 | Query DNS | Domain name : google.com.  | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 53202 | 53 | 2020-12-18 | 15:34:14.396235 | Query DNS | Domain name : forcesafesearch.google.com.  | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 59424 | 53 | 2020-12-18 | 15:34:14.421233 | Query DNS | Domain name : www.google.com.  | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 52163 | 53 | 2020-12-18 | 15:34:14.442229 | Query DNS | Domain name : m.youtube.com.  | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 59970 | 53 | 2020-12-18 | 15:34:14.466236 | Query DNS | Domain name : youtubei.googleapis.com.  | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 57248 | 53 | 2020-12-18 | 15:34:14.489230 | Query DNS | Domain name : youtube.googleapis.com.  | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 52632 | 53 | 2020-12-18 | 15:34:14.509228 | Query DNS | Domain name : www.youtube-nocookie.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 53202 | 2020-12-18 | 15:34:14.534237 | Answer DNS | Domain name : forcesafesearch.google.com. | IP : 216.239.38.120 | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 65531 | 53 | 2020-12-18 | 15:34:14.557234 | Query DNS | Domain name : restrict.youtube.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 57248 | 2020-12-18 | 15:34:14.584234 | Answer DNS | Domain name : youtube.googleapis.com. | IP : 216.58.198.202 | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 60355 | 2020-12-18 | 15:34:14.627228 | Answer DNS | Domain name : google.com. | IP : 142.250.74.238 | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 58244 | 2020-12-18 | 15:34:14.657253 | Answer DNS | Domain name : www.youtube.com. | IP : b'youtube-ui.l.google.com.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 59791 | 53 | 2020-12-18 | 15:34:14.681260 | Query DNS | Domain name : sitereview.zscaler.com.  | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 53206 | 53 | 2020-12-18 | 15:34:14.703234 | Query DNS | Domain name : restrictmoderate.youtube.com.  | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 51086 | 53 | 2020-12-18 | 15:34:14.733236 | Query DNS | Domain name : use-application-dns.net.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 59970 | 2020-12-18 | 15:34:14.756228 | Answer DNS | Domain name : youtubei.googleapis.com. | IP : 216.58.206.234 | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 59424 | 2020-12-18 | 15:34:14.784235 | Answer DNS | Domain name : www.google.com. | IP : 172.217.19.228 | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 52163 | 2020-12-18 | 15:34:14.807230 | Answer DNS | Domain name : m.youtube.com. | IP : 172.217.18.206 | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 55565 | 53 | 2020-12-18 | 15:34:14.834239 | Query DNS | Domain name : youtube-ui.l.google.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 52632 | 2020-12-18 | 15:34:14.859235 | Answer DNS | Domain name : www.youtube-nocookie.com. | IP : b'youtube-ui.l.google.com.' | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 65531 | 2020-12-18 | 15:34:14.888192 | Answer DNS | Domain name : restrict.youtube.com. | IP : 216.239.38.120 | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 53206 | 2020-12-18 | 15:34:14.911187 | Answer DNS | Domain name : restrictmoderate.youtube.com. | IP : 216.239.38.119 | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 51086 | 2020-12-18 | 15:34:14.942196 | Answer DNS | Domain name : use-application-dns.net. | IP : 63.245.208.212 | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 55565 | 2020-12-18 | 15:34:14.971787 | Answer DNS | Domain name : youtube-ui.l.google.com. | IP : 216.58.215.46 | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 59791 | 2020-12-18 | 15:34:15.006784 | Answer DNS | Domain name : sitereview.zscaler.com. | IP : 199.168.148.86 | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 52316 | 53 | 2020-12-18 | 15:34:15.033787 | Query DNS | Domain name : kv601.prod.do.dsp.mp.microsoft.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 52316 | 2020-12-18 | 15:34:15.059785 | Answer DNS | Domain name : kv601.prod.do.dsp.mp.microsoft.com. | IP : b'kv601.prod.dodsp.mp.microsoft.com.nsatc.net.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 54324 | 53 | 2020-12-18 | 15:34:15.082791 | Query DNS | Domain name : wpad.numericable.fr.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 54324 | 2020-12-18 | 15:34:15.105783 | Answer DNS | Domain name : wpad.numericable.fr. | IP : b'wpadnexistepas.tech.numericable.fr.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 61004 | 53 | 2020-12-18 | 15:34:17.320882 | Query DNS | Domain name : wpad.numericable.fr.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 61004 | 2020-12-18 | 15:34:17.351132 | Answer DNS | Domain name : wpad.numericable.fr. | IP : b'wpadnexistepas.tech.numericable.fr.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 56121 | 53 | 2020-12-18 | 15:34:26.320762 | Query DNS | Domain name : wpad.numericable.fr.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 56121 | 2020-12-18 | 15:34:26.358285 | Answer DNS | Domain name : wpad.numericable.fr. | IP : b'wpadnexistepas.tech.numericable.fr.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 51077 | 53 | 2020-12-18 | 15:34:27.240684 | Query DNS | Domain name : vortex.data.microsoft.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 51077 | 2020-12-18 | 15:34:27.276863 | Answer DNS | Domain name : vortex.data.microsoft.com. | IP : b'asimov.vortex.data.trafficmanager.net.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 62045 | 53 | 2020-12-18 | 15:34:30.645719 | Query DNS | Domain name : wpad.numericable.fr.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 62045 | 2020-12-18 | 15:34:30.699869 | Answer DNS | Domain name : wpad.numericable.fr. | IP : b'wpadnexistepas.tech.numericable.fr.' | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 58932 | 53 | 2020-12-18 | 15:34:40.864726 | Query DNS | Domain name : mozilla.cloudflare-dns.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 58932 | 2020-12-18 | 15:34:40.909776 | Answer DNS | Domain name : mozilla.cloudflare-dns.com. | IP : 104.16.248.249 | 
+02:18:54:77:40:3e | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 15:34:58.343656 | Discover DHCP | Vendor class id Tw@> | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 57039 | 53 | 2020-12-18 | 15:36:37.825342 | Query DNS | Domain name : vortex.data.microsoft.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 57039 | 2020-12-18 | 15:36:37.863632 | Answer DNS | Domain name : vortex.data.microsoft.com. | IP : b'asimov.vortex.data.trafficmanager.net.' | 
+66:cb:ad:ea:37:df | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 15:37:00.767009 | Discover DHCP | Vendor class id android-dhcp-11 | 
+66:cb:ad:ea:37:df | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 15:37:00.808350 | Request DHCP | Vendor class id android-dhcp-11 (66:cb:ad:ea:37:df) requested 192.168.0.13 | 
+66:cb:ad:ea:37:df | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 15:37:01.691517 | Request DHCP | Vendor class id android-dhcp-11 (66:cb:ad:ea:37:df) requested 192.168.0.13 | 
+66:cb:ad:ea:37:df | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 15:37:03.834993 | Request DHCP | Vendor class id android-dhcp-11 (66:cb:ad:ea:37:df) requested 192.168.0.13 | 
+66:cb:ad:ea:37:df | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 15:57:32.720550 | Discover DHCP | Vendor class id android-dhcp-11 | 
+66:cb:ad:ea:37:df | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 15:57:32.748732 | Request DHCP | Vendor class id android-dhcp-11 (66:cb:ad:ea:37:df) requested 192.168.0.13 | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.1 | 57161 | 53 | 2020-12-18 | 15:57:33.283837 | Query DNS | Domain name : vortex.data.microsoft.com.  | 
+7c:67:a2:19:ec:e0 | f4:6b:ef:6a:ad:c4 | 192.168.0.10 | 89.2.0.2 | 57161 | 53 | 2020-12-18 | 15:57:33.315841 | Query DNS | Domain name : vortex.data.microsoft.com.  | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.2 | 192.168.0.10 | 53 | 57161 | 2020-12-18 | 15:57:33.339835 | Answer DNS | Domain name : vortex.data.microsoft.com. | IP : b'asimov.vortex.data.trafficmanager.net.' | 
+f4:6b:ef:6a:ad:c4 | 7c:67:a2:19:ec:e0 | 89.2.0.1 | 192.168.0.10 | 53 | 57161 | 2020-12-18 | 15:57:33.384833 | Answer DNS | Domain name : vortex.data.microsoft.com. | IP : b'asimov.vortex.data.trafficmanager.net.' | 
+66:cb:ad:ea:37:df | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 15:58:22.764548 | Request DHCP | Vendor class id android-dhcp-11 (66:cb:ad:ea:37:df) requested 192.168.0.13 | 
+66:cb:ad:ea:37:df | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 16:02:50.121813 | Discover DHCP | Vendor class id android-dhcp-11 | 
+66:cb:ad:ea:37:df | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 16:02:50.147615 | Request DHCP | Vendor class id android-dhcp-11 (66:cb:ad:ea:37:df) requested 192.168.0.13 | 
+66:cb:ad:ea:37:df | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 16:02:51.113974 | Request DHCP | Vendor class id android-dhcp-11 (66:cb:ad:ea:37:df) requested 192.168.0.13 | 
+66:cb:ad:ea:37:df | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 16:02:53.106902 | Request DHCP | Vendor class id android-dhcp-11 (66:cb:ad:ea:37:df) requested 192.168.0.13 | 
+02:18:54:77:40:3e | ff:ff:ff:ff:ff:ff | 0.0.0.0 | 255.255.255.255 | 68 | 67 | 2020-12-18 | 16:03:15.076736 | Request DHCP | Vendor class id Null (02:18:54:77:40:3e) requested 1500 | 

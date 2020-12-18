@@ -193,7 +193,11 @@ def mainSniff(p):
 
         if p[3].options[0][1] == 1: #discover
 
-            vendor_class_id = p[3].options[3][1].decode()
+            try:
+                vendor_class_id = p[3].options[3][1].decode()
+            except:
+                vendor_class_id = "Null"
+
             request = ""
             if unauthorizedDHCP(macSrc):
                 request = "Discover DHCP | Vendor class id {}".format(vendor_class_id)
@@ -208,8 +212,13 @@ def mainSniff(p):
 
         elif p[3].options[0][1] == 3: #request
 
-            vendor_class_id = p[3].options[5][1].decode()
+            try:
+                vendor_class_id = p[3].options[5][1].decode()
+            except: 
+                vendor_class_id = "Null"
+
             ip_p = p[3].options[2][1]
+
             request = ""
             if unauthorizedDHCP(macSrc):
                 request = "Request DHCP | Vendor class id {} ({}) requested {}".format(vendor_class_id,macSrc,ip_p)
