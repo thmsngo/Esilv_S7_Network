@@ -106,27 +106,31 @@ def mainSniff(p):
 
         typeRequest = p.qr
 
-        if typeRequest == 1 :
+        if typeRequest == 1 : #Answer
 
-            if p.ancount >= 1: #Answer
+            if(unauthorizedDNS(str(p.src))):
 
-                ip = p.an.rdata #type : <class 'str'>
-                if(unauthorizedDNS(str(p.src))):
+                if p.ancount >= 1: #Si la réponse possède une une IP de réponse correcte
+
+                    ip = p.an.rdata #type : <class 'str'>
                     logRequest = "Answer DNS | Domain name : {} | IP : {}".format(domainName,ip)
                     log.append(logRequest)
                 else:
-                    logRequest = "DNS IS BANNED"
+                    logRequest = "Answer DNS | Domain name : {} | IP : Incorrect".format(domainName)
                     log.append(logRequest)
-                    with open("blacklist.txt", 'a') as output:
-                        for prop in log:
-                            output.write(str(prop) +" / ")
-                        output.write("\n")
-                        output.close()
-            
+
             else:
-                logRequest = "Answer DNS | Domain name : {} | IP : Incorrect".format(domainName)
+                logRequest = "DNS IS BANNED"
                 log.append(logRequest)
-        else:
+                with open("blacklist.txt", 'a') as output:
+                    for prop in log:
+                        output.write(str(prop) +" / ")
+                    output.write("\n")
+                    output.close()
+             
+
+        elif typeRequest == 0 : #Query
+
             if(unauthorizedDNS(str(p.dst))):
                 logRequest = "Query DNS | Domain name : {} ".format(domainName)
                 log.append(logRequest)
@@ -138,11 +142,7 @@ def mainSniff(p):
                         output.write(str(prop) +" / ")
                     output.write("\n")
                     output.close()
-        print(logRequest)
 
-    
-        #Checker si c'est autorisé 
-        #On le met dans le fichier du jour
         day = str(date.today())
         file_name = "day_logs_" + day +".txt"
         logStr = ""
